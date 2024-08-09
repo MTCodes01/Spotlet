@@ -228,3 +228,13 @@ body {
 .dropdown.show {
   display: flex;
 }
+
+.more_details{
+  text-decoration: none;
+  color: blue;
+}
+
+.more_details p:hover{
+  color: rgb(0, 0, 255);
+}
+
