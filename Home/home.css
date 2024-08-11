@@ -1,15 +1,26 @@
+html {
+  padding: 0;
+  margin: 0;
+}
+
 body {
   margin: 0;
   padding: 0;
   font-family: Arial, sans-serif;
   color: #000;
-  height: auto;
+  background-color: #121212;
+  height: 100%;
   width: 100%;
 }
 
-.dark-mode body {
-  background-color: #f4f4f4;
+.dark-mode{
+  background-color: #e6e6e6;
   color: #fff;
+}
+
+.wrapper {
+  height: 100%;
+  background-color: #121212;
 }
 
 .navbar {
@@ -94,13 +105,8 @@ body {
   background-color: rgba(255, 255, 255, 0.6);
 }
 
-.wrapper {
-  height: 100%;
-  background-color: #121212;
-}
-
 .dark-mode .wrapper {
-  background-color: #F0F4F8;
+  background-color: #e6e6e6;
 }
 
 .container {
@@ -108,10 +114,11 @@ body {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
+  height: auto;
   gap: 20px;
   padding: 20px;
 }
-
+    
 .hostel_card {
   display: block;
   background-color: #2a2a2a;

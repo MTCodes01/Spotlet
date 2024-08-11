@@ -1,0 +1,100 @@
+[
+    {
+        "id": 1,
+        "name": "Hostel A",
+        "price": "1000",
+        "distance": "1.5km",
+        "gender": "Male",
+        "images": [
+            "../Images/placeholder.png",
+            "../Images/placeholder.png",
+            "../Images/placeholder.png"
+        ],
+        "link": "details.html",
+        "common_details": {
+            "washing_machines": "Yes",
+            "filtered_water": "Yes",
+            "hot_water": "No",
+            "parking": "Yes",
+            "security": "Yes",
+            "cctv": "Yes"
+        },
+        "single_room": {
+            "available": "Yes",
+            "price": "1200",
+            "bed_type": {
+                "single": {"available": "Yes", "price": "1000"},
+                "double": {"available": "No", "price": ""}
+            },
+            "ac": "Yes",
+            "furniture": "Yes",
+            "bathroom_facilities": {
+                "private_bathroom": "Yes",
+                "shared_bathroom": "No"
+            }
+        },
+        "shared_room": {
+            "available": "Yes",
+            "price": "800",
+            "bed_type": {
+                "single": {"available": "No", "price": ""},
+                "double": {"available": "Yes", "price": "750"}
+            },
+            "ac": "No",
+            "furniture": "Yes",
+            "bathroom_facilities": {
+                "private_bathroom": "No",
+                "shared_bathroom": "Yes"
+            }
+        }
+    },
+    {
+        "id": 2,
+        "name": "Hostel B",
+        "price": "1300",
+        "distance": "2km",
+        "gender": "Female",
+        "images": [
+            "../Images/placeholder.png",
+            "../Images/placeholder.png",
+            "../Images/placeholder.png"
+        ],
+        "link": "details.html",
+        "common_details": {
+            "washing_machines": "No",
+            "filtered_water": "Yes",
+            "hot_water": "Yes",
+            "parking": "Yes",
+            "security": "No",
+            "cctv": "No"
+        },
+        "single_room": {
+            "available": "No",
+            "price": "",
+            "bed_type": {
+                "single": {"available": "No", "price": ""},
+                "double": {"available": "No", "price": ""}
+            },
+            "ac": "No",
+            "furniture": "Yes",
+            "bathroom_facilities": {
+                "private_bathroom": "No",
+                "shared_bathroom": "Yes"
+            }
+        },
+        "shared_room": {
+            "available": "Yes",
+            "price": "950",
+            "bed_type": {
+                "single": {"available": "Yes", "price": "800"},
+                "double": {"available": "Yes", "price": "900"}
+            },
+            "ac": "Yes",
+            "furniture": "No",
+            "bathroom_facilities": {
+                "private_bathroom": "No",
+                "shared_bathroom": "Yes"
+            }
+        }
+    }
+]
