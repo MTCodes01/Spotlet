@@ -1,0 +1,35 @@
+/* Styling for the body */
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("./images/login.png") -1500px center/cover;
+  backdrop-filter: blur(8px);
+}
+
+/* Styling for the HTML */
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+/* Styling for the background container */
+.bg {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Styling for the loader container */
+.loader {
+  width: 100px;
+  height: 100px;
+}

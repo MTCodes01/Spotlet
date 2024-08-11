@@ -77,7 +77,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
             // Single Room Details
             const singleRoomAmenities = [
-                { id: 'available', checkId: 'singleRoomAvailableCheck', value: hostel.single_room.available },
+                // { id: 'available', checkId: 'singleRoomAvailableCheck', value: hostel.single_room.available },
                 { id: 'bed_type.single.available', checkId: 'singleBedSingleCheck', value: hostel.single_room.bed_type.single.available },
                 { id: 'bed_type.double.available', checkId: 'singleBedDoubleCheck', value: hostel.single_room.bed_type.double.available },
                 { id: 'ac', checkId: 'singleRoomACCheck', value: hostel.single_room.ac },
@@ -94,7 +94,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
             // Shared Room Details
             const sharedRoomAmenities = [
-                { id: 'available', checkId: 'sharedRoomAvailableCheck', value: hostel.shared_room.available },
+                // { id: 'available', checkId: 'sharedRoomAvailableCheck', value: hostel.shared_room.available },
                 { id: 'bed_type.single.available', checkId: 'sharedBedSingleCheck', value: hostel.shared_room.bed_type.single.available },
                 { id: 'bed_type.double.available', checkId: 'sharedBedDoubleCheck', value: hostel.shared_room.bed_type.double.available },
                 { id: 'ac', checkId: 'sharedRoomACCheck', value: hostel.shared_room.ac },

@@ -269,11 +269,12 @@ body {
 
 .hostel_details p {
   margin: 10px 0;
-  font-size: small;
+  font-size: x-small;
 }
 
 .back_link {
-  display: inline-block;
+  display: flex;
+  justify-content: center;
   margin-top: 20px;
   padding: 10px 20px;
   background-color: #007bff;
@@ -374,7 +375,7 @@ body {
 
 .amenities h2 {
   margin: 5px 0 0 0;
-  font-size: 24px;
+  font-size: 20px;
   color: #ffffff;
 }
 
@@ -398,6 +399,11 @@ body {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 20px;
+}
+
+.common_details .amenities-grid {
+  margin-top: 20%;
+  gap: 30px;
 }
 
 @media (min-width: 768px) {
