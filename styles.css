@@ -8,7 +8,7 @@ body {
   height: 100vh;
   width: 100%;
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("./images/login.png") -1500px center/cover;
+    url("./Images/login.png") -1500px center/cover;
   backdrop-filter: blur(8px);
 }
 
