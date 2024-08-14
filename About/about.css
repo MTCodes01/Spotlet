@@ -1,140 +1,140 @@
 body {
-    margin: 0;
-    padding: 0;
-    font-family: Arial, sans-serif;
-    background-color: #121212;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #121212;
 }
 
 .navbar {
-    position: sticky;
-    top: 0;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-    background: rgba(0, 0, 0, 0.8);
-    backdrop-filter: blur(10px);
-    color: white;
-    padding: 20px 0;
+  position: sticky;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  backdrop-filter: blur(10px);
+  color: white;
+  padding: 20px 0;
 }
 
 .navbar .brand {
-    font-size: 20px;
-    font-weight: bold;
+  font-size: 20px;
+  font-weight: bold;
 }
 
 .navbar .dark-mode-toggle {
-    cursor: pointer;
-    padding-left: 10px;
+  cursor: pointer;
+  padding-left: 10px;
 }
 
 .navbar .hamburger-menu {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    width: 24px;
-    height: 24px;
-    cursor: pointer;
-    padding-right: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+  padding-right: 10px;
 }
 
 .navbar .hamburger-menu div {
-    width: 100%;
-    height: 3px;
-    background: white;
-    margin: 3px 0;
+  width: 100%;
+  height: 3px;
+  background: white;
+  margin: 3px 0;
 }
 
 .navbar .dropdown {
-    display: none;
-    position: absolute;
-    top: 64px;
-    right: 0;
-    background-color: rgba(0, 0, 0, 0.8);
-    color: white;
-    flex-direction: column;
-    width: 150px;
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  display: none;
+  position: absolute;
+  top: 64px;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  flex-direction: column;
+  width: 150px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
 .navbar .dropdown a {
-    padding: 12px 16px;
-    text-decoration: none;
-    color: inherit;
-    display: block;
+  padding: 12px 16px;
+  text-decoration: none;
+  color: inherit;
+  display: block;
 }
 
 .navbar .dropdown a:hover {
-    background-color: rgba(0, 0, 0, 0.2);
+  background-color: rgba(0, 0, 0, 0.2);
 }
 
 .dark-mode body {
-    background-color: #f4f4f4;
-    color: #333;
+  background-color: #f4f4f4;
+  color: #333;
 }
 
 .dark-mode .navbar {
-    background: rgba(255, 255, 255, 0.8);
-    color: black;
+  background: rgba(255, 255, 255, 0.8);
+  color: black;
 }
 
 .dark-mode .navbar .hamburger-menu div {
-    background: black;
+  background: black;
 }
 
 .dark-mode .navbar .dropdown {
-    background-color: rgba(255, 255, 255, 0.8);
-    color: black;
+  background-color: rgba(255, 255, 255, 0.8);
+  color: black;
 }
 
 .dark-mode .navbar .dropdown a:hover {
-    background-color: rgba(255, 255, 255, 0.6);
+  background-color: rgba(255, 255, 255, 0.6);
 }
 
 main {
-    display: flex;
-    justify-content: center;
-    padding: 20px;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
 }
 
 #about {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    padding-top: 40px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding-top: 40px;
 }
 
 .about-content {
-    max-width: 800px;
-    width: 100%;
-    padding: 20px;
-    background: linear-gradient(135deg, #e3f2fd, #bbdefb);
-    border: 1px solid #ccc;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 800px;
+  width: 100%;
+  padding: 20px;
+  background: linear-gradient(135deg, #e3f2fd, #bbdefb);
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .about-content h2 {
-    font-size: 2em;
-    margin-bottom: 20px;
-    color: #3f51b5;
+  font-size: 2em;
+  margin-bottom: 20px;
+  color: #3f51b5;
 }
 
 .about-content p {
-    margin-bottom: 15px;
-    font-size: 1em;
-    color: #666;
+  margin-bottom: 15px;
+  font-size: 1em;
+  color: #666;
 }
 
 .about-content a {
-    color: #3f51b5;
-    text-decoration: none;
+  color: #3f51b5;
+  text-decoration: none;
 }
 
 .about-content a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 .dropdown.show {
-    display: flex;
+  display: flex;
 }

@@ -1,0 +1,137 @@
+[
+    {
+        "id": 1,
+        "hostel_name": "Test",
+        "owner_name": "Owner",
+        "contact_no": "1234567890",
+        "whatsapp_no": "1234567890",
+        "quotient_deposit": "20000",
+        "distance": "1.2km",
+        "gender": "Boys",
+        "seats": {
+            "boys": "15",
+            "girls": "0"
+        },
+        "images": [
+            "https://drive.google.com/u/0/open?usp=forms_web&id=16IsQa4nPUHQ2_sMkDCR7jW6AeV4ekXDY",
+            "https://drive.google.com/u/0/open?usp=forms_web&id=1R3cgO96MiY32N0Lx2IUVf_g4oNGKwAY_"
+        ],
+        "links": [
+            "link1",
+            "link2"
+        ],
+        "common_details": {
+            "wifi": "Yes",
+            "washing_machines": "No",
+            "filtered_water": "Yes",
+            "hot_water": "No",
+            "parking": "Yes",
+            "security": "No",
+            "cctv": "Yes",
+            "iron_box": "Yes",
+            "common_bathroom": "No",
+            "NOTA": "No"
+        },
+        "single_room": {
+            "available": "No",
+            "price": "N/A",
+            "bed_type": {
+                "single": {
+                    "available": "No"
+                },
+                "double": {
+                    "available": "No"
+                }
+            },
+            "options_available": {
+                "ac": "No",
+                "furniture": "No",
+                "private_bathroom": "No"
+            }
+        },
+        "shared_room": {
+            "available": "Yes",
+            "price": "1000",
+            "bed_type": {
+                "single": {
+                    "available": "Yes"
+                },
+                "double": {
+                    "available": "No"
+                }
+            },
+            "options_available": {
+                "ac": "No",
+                "furniture": "Yes",
+                "private_bathroom": "Yes"
+            }
+        }
+    },
+    {
+        "id": 2,
+        "hostel_name": "test",
+        "owner_name": "own",
+        "contact_no": "234234",
+        "whatsapp_no": "12421342",
+        "quotient_deposit": "20000",
+        "distance": "1.5km",
+        "gender": "Boys",
+        "seats": {
+            "boys": "15",
+            "girls": "0"
+        },
+        "images": [
+            "https://drive.google.com/u/0/open?usp=forms_web&id=1goizHfmLAHSW8CUdxg3t3F8ql8R1R1dj"
+        ],
+        "links": [
+            "link1",
+            "link2"
+        ],
+        "common_details": {
+            "wifi": "Yes",
+            "washing_machines": "Yes",
+            "filtered_water": "Yes",
+            "hot_water": "No",
+            "parking": "Yes",
+            "security": "Yes",
+            "cctv": "Yes",
+            "iron_box": "Yes",
+            "common_bathroom": "Yes",
+            "NOTA": "No"
+        },
+        "single_room": {
+            "available": "Yes",
+            "price": "1000",
+            "bed_type": {
+                "single": {
+                    "available": "No"
+                },
+                "double": {
+                    "available": "No"
+                }
+            },
+            "options_available": {
+                "ac": "Yes",
+                "furniture": "Yes",
+                "private_bathroom": "Yes"
+            }
+        },
+        "shared_room": {
+            "available": "Yes",
+            "price": "10000",
+            "bed_type": {
+                "single": {
+                    "available": "Yes"
+                },
+                "double": {
+                    "available": "Yes"
+                }
+            },
+            "options_available": {
+                "ac": "Yes",
+                "furniture": "Yes",
+                "private_bathroom": "Yes"
+            }
+        }
+    }
+]

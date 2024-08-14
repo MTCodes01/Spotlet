@@ -379,7 +379,9 @@ body {
   color: #ffffff;
 }
 
-.common_details, .single_room, .shared_room {
+.common_details,
+.single_room,
+.shared_room {
   display: flex;
   flex-direction: column;
   margin-top: 20px;
