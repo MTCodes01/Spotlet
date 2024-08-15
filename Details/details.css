@@ -396,15 +396,22 @@ body {
   box-shadow: 0 0 15px rgba(255, 255, 255, 0.3);
 }
 
-/* General Grid Layout */
 .amenities-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 20px;
 }
 
+.not_available {
+  text-align: center;
+  font-size: 18px;
+  color: #bcbcbc;
+  padding: 20px;
+  grid-column: span 4;
+}
+
 .common_details .amenities-grid {
-  margin-top: 20%;
+  margin-top: 0;
   gap: 30px;
 }
 

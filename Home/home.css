@@ -145,7 +145,7 @@ body {
   position: relative;
   width: 100%;
   height: 200px;
-  background-image: url("../Images/placeholder.png");
+  /* background-image: url("../Images/placeholder.png"); */
   background-size: cover;
   background-position: center;
 }
@@ -238,7 +238,7 @@ body {
 
 .more_details {
   text-decoration: none;
-  color: blue;
+  color: rgb(0, 153, 255);
 }
 
 .more_details p:hover {

@@ -8,49 +8,49 @@ body {
   height: 100vh;
   width: 100%;
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("./Images/login.png") center center/cover;
+    url("./Images/loading.png") center center/cover;
   backdrop-filter: blur(5px);
 }
 
 /* @media (min-width: 381px) and (max-width: 500px) {
   body {
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-      url("./Images/login.png") -1500 center;
+      url("./Images/loading.png") -1500 center;
   }
 } */
 
 @media (max-width: 751px) {
   body {
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-      url("./Images/login.png") -1450px center/cover;
+      url("./Images/loading.png") -1450px center/cover;
   }
 }
 
 @media (max-width: 551px) {
   body {
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-      url("./Images/login.png") -1500px center/cover;
+      url("./Images/loading.png") -1500px center/cover;
   }
 }
 
 @media (max-width: 451px) {
   body {
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-      url("./Images/login.png") -1550px center/cover;
+      url("./Images/loading.png") -1550px center/cover;
   }
 }
 
 @media (max-width: 401px) {
   body {
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-      url("./Images/login.png") -1550px center/cover;
+      url("./Images/loading.png") -1550px center/cover;
   }
 }
 
 @media (max-width: 351px) {
   body {
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-      url("./Images/login.png") -1600px center/cover;
+      url("./Images/loading.png") -1600px center/cover;
   }
 }
 

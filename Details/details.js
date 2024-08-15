@@ -43,11 +43,11 @@ document.addEventListener("DOMContentLoaded", function () {
   const hostelId = getQueryParam("id");
 
   if (!hostelId) {
-    window.location.href = "../Home/index.html";
+    window.location.href = "../Home/home.html";
     return;
   }
 
-  fetch("../hostels.json")
+  fetch("../hostel_details.json")
     .then((response) => response.json())
     .then((data) => {
       const hostel = data.find((h) => h.id == hostelId);
@@ -57,7 +57,7 @@ document.addEventListener("DOMContentLoaded", function () {
         return;
       }
 
-      document.querySelector("#hostelName").textContent = hostel.name;
+      document.querySelector("#hostelName").textContent = hostel.hostel_name;
       document.querySelector(
         "#hostelPrice"
       ).textContent = `₹${hostel.price} / month`;
@@ -65,21 +65,37 @@ document.addEventListener("DOMContentLoaded", function () {
       document.querySelector("#hostelGender").textContent = hostel.gender;
 
       const amenities = [
-        { id: "washingMachines", checkId: "washingMachinesCheck" },
-        { id: "filteredWater", checkId: "filteredWaterCheck" },
-        { id: "hotWater", checkId: "hotWaterCheck" },
+        { id: "wifi", checkId: "wifiCheck" },
+        { id: "washing_machines", checkId: "washingMachinesCheck" },
+        { id: "filtered_water", checkId: "filteredWaterCheck" },
+        { id: "hot_water", checkId: "hotWaterCheck" },
         { id: "parking", checkId: "parkingCheck" },
         { id: "security", checkId: "securityCheck" },
         { id: "cctv", checkId: "cctvCheck" },
+        { id: "iron_box", checkId: "ironBoxCheck" },
+        { id: "common_bathroom", checkId: "commonBathroomCheck" },
       ];
 
-      amenities.forEach((amenity) => {
-        const isAvailable = hostel.common_details[amenity.id] === "Yes";
-        const checkElement = document.getElementById(amenity.checkId);
-        checkElement.classList.add(
-          isAvailable ? "success-checkmark" : "crosssign"
-        );
+      const shouldStop = amenities.some((amenity) => {
+        if (hostel.common_details["NOTA"] === "Yes") {
+          return true;
+        } else {
+          const isAvailable = hostel.common_details[amenity.id] === "Yes";
+          const checkElement = document.getElementById(amenity.checkId);
+          checkElement.classList.add(
+            isAvailable ? "success-checkmark" : "crosssign"
+          );
+          return false;
+        }
       });
+
+      if (shouldStop) {
+        const commonGrid = document.querySelector(
+          ".common_details .amenities-grid"
+        );
+        commonGrid.innerHTML = '<div class="not_available">Not available</div>';
+        commonGrid.style.position = "relative";
+      }
 
       // Single Room Details
       const singleRoomAmenities = [
@@ -97,32 +113,46 @@ document.addEventListener("DOMContentLoaded", function () {
         {
           id: "ac",
           checkId: "singleRoomACCheck",
-          value: hostel.single_room.ac,
+          value: hostel.single_room.options_available.ac,
         },
         {
           id: "furniture",
           checkId: "singleRoomFurnitureCheck",
-          value: hostel.single_room.furniture,
+          value: hostel.single_room.options_available.furniture,
         },
         {
           id: "bathroom_facilities.private_bathroom",
           checkId: "singlePrivateBathroomCheck",
-          value: hostel.single_room.bathroom_facilities.private_bathroom,
-        },
-        {
-          id: "bathroom_facilities.shared_bathroom",
-          checkId: "singleSharedBathroomCheck",
-          value: hostel.single_room.bathroom_facilities.shared_bathroom,
+          value: hostel.single_room.options_available.private_bathroom,
         },
       ];
 
-      singleRoomAmenities.forEach((amenity) => {
-        const checkElement = document.getElementById(amenity.checkId);
-        const isAvailable = amenity.value === "Yes";
-        checkElement.classList.add(
-          isAvailable ? "success-checkmark" : "crosssign"
-        );
+      const singleShouldStop = singleRoomAmenities.some((amenity) => {
+        if (hostel.single_room["available"] === "No") {
+          return true;
+        } else {
+          document.querySelector(
+            "#singleRoomPrice"
+          ).textContent = `₹${hostel.single_room["price"]} / month`;
+          const checkElement = document.getElementById(amenity.checkId);
+          const isAvailable = amenity.value === "Yes";
+          checkElement.classList.add(
+            isAvailable ? "success-checkmark" : "crosssign"
+          );
+          return false;
+        }
       });
+
+      if (singleShouldStop) {
+        document.querySelector("#singleRoomPrice").textContent = "";
+        document.querySelector(".single_top").style.textAlign = "center";
+        const singleGrid = document.querySelector(
+          ".single_room .amenities-grid"
+        );
+        const singleTop = document.querySelector(".single_top");
+        singleGrid.innerHTML = '<div class="not_available">Not available</div>';
+        singleGrid.style.position = "relative";
+      }
 
       // Shared Room Details
       const sharedRoomAmenities = [
@@ -140,39 +170,52 @@ document.addEventListener("DOMContentLoaded", function () {
         {
           id: "ac",
           checkId: "sharedRoomACCheck",
-          value: hostel.shared_room.ac,
+          value: hostel.shared_room.options_available.ac,
         },
         {
           id: "furniture",
           checkId: "sharedRoomFurnitureCheck",
-          value: hostel.shared_room.furniture,
+          value: hostel.shared_room.options_available.furniture,
         },
         {
           id: "bathroom_facilities.private_bathroom",
           checkId: "sharedPrivateBathroomCheck",
-          value: hostel.shared_room.bathroom_facilities.private_bathroom,
-        },
-        {
-          id: "bathroom_facilities.shared_bathroom",
-          checkId: "sharedSharedBathroomCheck",
-          value: hostel.shared_room.bathroom_facilities.shared_bathroom,
+          value: hostel.shared_room.options_available.private_bathroom,
         },
       ];
 
-      sharedRoomAmenities.forEach((amenity) => {
-        const checkElement = document.getElementById(amenity.checkId);
-        const isAvailable = amenity.value === "Yes";
-        checkElement.classList.add(
-          isAvailable ? "success-checkmark" : "crosssign"
-        );
+      const sharedShouldStop = sharedRoomAmenities.some((amenity) => {
+        if (hostel.shared_room["available"] === "No") {
+          return true;
+        } else {
+          document.querySelector(
+            "#sharedRoomPrice"
+          ).textContent = `₹${hostel.shared_room["price"]} / month`;
+          const checkElement = document.getElementById(amenity.checkId);
+          const isAvailable = amenity.value === "Yes";
+          checkElement.classList.add(
+            isAvailable ? "success-checkmark" : "crosssign"
+          );
+          return false;
+        }
       });
+
+      if (sharedShouldStop) {
+        document.querySelector("#sharedRoomPrice").textContent = "";
+        document.querySelector(".shared_top").style.textAlign = "center";
+        const singleGrid = document.querySelector(
+          ".shared_room .amenities-grid"
+        );
+        singleGrid.innerHTML = '<div class="not_available">Not available</div>';
+        singleGrid.style.position = "relative";
+      }
 
       // Populate image gallery
       const imageGallery = document.querySelector(".image-gallery");
       hostel.images.forEach((imageSrc) => {
         const img = document.createElement("img");
         img.src = imageSrc;
-        img.alt = hostel.name;
+        img.alt = hostel.hostel_name;
         imageGallery.appendChild(img);
       });
     })
