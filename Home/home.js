@@ -51,27 +51,27 @@ document.addEventListener("DOMContentLoaded", function () {
 
       data.forEach((hostel) => {
         const hostelCard = `
-          <div class="hostel_card" data-id="${hostel.id}">
-            <div class="top" style="background-image: url('../Images/placeholder.png');">
-              <div class="prize">₹${hostel.price} <span class="sub">/ month</span></div>
-            </div>
-            <div class="bottom">
-              <div class="info">
-                <h2>${hostel.hostel_name}</h2>
-                <p class="sub">${hostel.distance} from College</p>
+            <div class="hostel_card" data-id="${hostel.id}">
+              <div class="top" style="background-image: url('../Images/placeholder.png');">
+                <div class="prize">₹${hostel.price} <span class="sub">/ month</span></div>
               </div>
-              <div class="more_info">
-                <div class="gender">${hostel.gender}</div>
-                <a href="javascript:void(0);" class="more_details" data-id="${hostel.id}">
-                  <p>See more details &rarr;</p>
-                </a>
+              <div class="bottom">
+                <div class="info">
+                  <h2>${hostel.hostel_name}</h2>
+                  <p class="sub">${hostel.distance} from College</p>
+                </div>
+                <div class="more_info">
+                  <div class="gender">${hostel.gender}</div>
+                  <a href="javascript:void(0);" class="more_details" data-id="${hostel.id}">
+                    <p>See more details &rarr;</p>
+                  </a>
+                </div>
               </div>
-            </div>
-          </div>`;
+            </div>`;
         container.innerHTML += hostelCard;
       });
 
-      document.querySelectorAll(".more_details").forEach((card) => {
+      document.querySelectorAll(".hostel_card").forEach((card) => {
         card.addEventListener("click", function () {
           const hostelId = this.getAttribute("data-id");
           window.location.href = `../Details/details.html?id=${encodeURIComponent(hostelId)}`;

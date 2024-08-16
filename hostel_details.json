@@ -1,204 +1,270 @@
 [
-  {
-    "id": 1,
-    "hostel_name": "Test",
-    "owner_name": "Owner",
-    "price": "1000",
-    "contact_no": "1234567890",
-    "whatsapp_no": "1234567890",
-    "quotient_deposit": "20000",
-    "distance": "1.2km",
-    "gender": "Boys",
-    "seats": {
-      "boys": "15",
-      "girls": "0"
-    },
-    "images": [
-      "../Images/placeholder.png",
-      "https://drive.google.com/u/0/open?usp=forms_web&id=16IsQa4nPUHQ2_sMkDCR7jW6AeV4ekXDY",
-      "https://drive.google.com/u/0/open?usp=forms_web&id=1R3cgO96MiY32N0Lx2IUVf_g4oNGKwAY_"
-    ],
-    "links": ["link1", "link2"],
-    "common_details": {
-      "wifi": "Yes",
-      "washing_machines": "No",
-      "filtered_water": "Yes",
-      "hot_water": "No",
-      "parking": "Yes",
-      "security": "No",
-      "cctv": "Yes",
-      "iron_box": "Yes",
-      "common_bathroom": "No",
-      "NOTA": "No"
-    },
-    "single_room": {
-      "available": "No",
-      "price": "N/A",
-      "bed_type": {
-        "single": {
-          "available": "No"
+    {
+        "id": 1,
+        "hostel_name": "Shalabam",
+        "owner_name": "R Vijaya kumar",
+        "price": "6000",
+        "contact_no": "8281892291",
+        "whatsapp_no": "9895133828",
+        "quotient_deposit": "3000",
+        "distance": "Nilkm",
+        "gender": "Boys",
+        "seats": {
+            "boys": "10",
+            "girls": "0"
         },
-        "double": {
-          "available": "No"
-        }
-      },
-      "options_available": {
-        "ac": "No",
-        "furniture": "No",
-        "private_bathroom": "No"
-      }
-    },
-    "shared_room": {
-      "available": "Yes",
-      "price": "1000",
-      "bed_type": {
-        "single": {
-          "available": "Yes"
+        "images": [
+            "https://drive.google.com/u/0/open?usp=forms_web&id=1PnreHjokT8NIOtNJ_mMvgRvIS_JRuRQ9"
+        ],
+        "links": [
+            "Nil"
+        ],
+        "common_details": {
+            "wifi": "No",
+            "washing_machines": "No",
+            "filtered_water": "Yes",
+            "hot_water": "No",
+            "parking": "Yes",
+            "security": "Yes",
+            "cctv": "No",
+            "iron_box": "No",
+            "common_bathroom": "Yes",
+            "NOTA": "No"
         },
-        "double": {
-          "available": "No"
+        "single_room": {
+            "available": "Yes",
+            "price": "Nil",
+            "bed_type": {
+                "single": {
+                    "available": "No"
+                },
+                "double": {
+                    "available": "No"
+                }
+            },
+            "options_available": {
+                "ac": "No",
+                "furniture": "No",
+                "private_bathroom": "Yes"
+            }
+        },
+        "shared_room": {
+            "available": "Yes",
+            "price": "6000",
+            "bed_type": {
+                "single": {
+                    "available": "Yes"
+                },
+                "double": {
+                    "available": "No"
+                }
+            },
+            "options_available": {
+                "ac": "No",
+                "furniture": "No",
+                "private_bathroom": "Yes"
+            }
         }
-      },
-      "options_available": {
-        "ac": "No",
-        "furniture": "Yes",
-        "private_bathroom": "Yes"
-      }
+    },
+    {
+        "id": 2,
+        "hostel_name": "S.S Ladies Hostel",
+        "owner_name": "Saju",
+        "price": "5500 dorm",
+        "contact_no": "9745354655",
+        "whatsapp_no": "9745354655",
+        "quotient_deposit": "1000",
+        "distance": "Nilkm",
+        "gender": "Girls",
+        "seats": {
+            "boys": "0",
+            "girls": "15"
+        },
+        "images": [
+            "https://drive.google.com/u/0/open?usp=forms_web&id=1EDrby84MgpyvRdFwKyrPU6yqiwSvLgRa"
+        ],
+        "links": [
+            "Nil"
+        ],
+        "common_details": {
+            "wifi": "No",
+            "washing_machines": "No",
+            "filtered_water": "No",
+            "hot_water": "No",
+            "parking": "Yes",
+            "security": "Yes",
+            "cctv": "No",
+            "iron_box": "Yes",
+            "common_bathroom": "Yes",
+            "NOTA": "No"
+        },
+        "single_room": {
+            "available": "No",
+            "price": "N/A",
+            "bed_type": {
+                "single": {
+                    "available": "No"
+                },
+                "double": {
+                    "available": "No"
+                }
+            },
+            "options_available": {
+                "ac": "No",
+                "furniture": "No",
+                "private_bathroom": "No"
+            }
+        },
+        "shared_room": {
+            "available": "Yes",
+            "price": "5500 dorm",
+            "bed_type": {
+                "single": {
+                    "available": "No"
+                },
+                "double": {
+                    "available": "No"
+                }
+            },
+            "options_available": {
+                "ac": "No",
+                "furniture": "Yes",
+                "private_bathroom": "Yes"
+            }
+        }
+    },
+    {
+        "id": 3,
+        "hostel_name": "Ayshoo's PG",
+        "owner_name": "Shemja MA",
+        "price": "5500",
+        "contact_no": "9847722137",
+        "whatsapp_no": "9847722137",
+        "quotient_deposit": "Nil",
+        "distance": "Nilkm",
+        "gender": "Boys / Girls",
+        "seats": {
+            "boys": "26",
+            "girls": "6"
+        },
+        "images": [
+            "https://drive.google.com/u/0/open?usp=forms_web&id=1dwNrD9cccVsdoptjPC1rBSM_bFW77bhw"
+        ],
+        "links": [
+            "Nil"
+        ],
+        "common_details": {
+            "wifi": "Yes",
+            "washing_machines": "No",
+            "filtered_water": "Yes",
+            "hot_water": "No",
+            "parking": "Yes",
+            "security": "No",
+            "cctv": "Yes",
+            "iron_box": "No",
+            "common_bathroom": "Yes",
+            "NOTA": "No"
+        },
+        "single_room": {
+            "available": "No",
+            "price": "N/A",
+            "bed_type": {
+                "single": {
+                    "available": "No"
+                },
+                "double": {
+                    "available": "No"
+                }
+            },
+            "options_available": {
+                "ac": "No",
+                "furniture": "No",
+                "private_bathroom": "No"
+            }
+        },
+        "shared_room": {
+            "available": "Yes",
+            "price": "5500",
+            "bed_type": {
+                "single": {
+                    "available": "Yes"
+                },
+                "double": {
+                    "available": "No"
+                }
+            },
+            "options_available": {
+                "ac": "No",
+                "furniture": "Yes",
+                "private_bathroom": "Yes"
+            }
+        }
+    },
+    {
+        "id": 4,
+        "hostel_name": "Dhwaraka ",
+        "owner_name": "Shella Mohan",
+        "price": "5500",
+        "contact_no": "8281603395",
+        "whatsapp_no": "8281603395",
+        "quotient_deposit": "Contact Owner",
+        "distance": "Nilkm",
+        "gender": "Boys / Girls",
+        "seats": {
+            "boys": "20",
+            "girls": "20"
+        },
+        "images": [
+            "https://drive.google.com/u/0/open?usp=forms_web&id=1wPfbM--qYQqwvJsr_Djps6fASFVIqFx2"
+        ],
+        "links": [
+            "Nil"
+        ],
+        "common_details": {
+            "wifi": "No",
+            "washing_machines": "No",
+            "filtered_water": "Yes",
+            "hot_water": "No",
+            "parking": "Yes",
+            "security": "Yes",
+            "cctv": "No",
+            "iron_box": "No",
+            "common_bathroom": "Yes",
+            "NOTA": "No"
+        },
+        "single_room": {
+            "available": "Yes",
+            "price": "--",
+            "bed_type": {
+                "single": {
+                    "available": "No"
+                },
+                "double": {
+                    "available": "No"
+                }
+            },
+            "options_available": {
+                "ac": "No",
+                "furniture": "Yes",
+                "private_bathroom": "Yes"
+            }
+        },
+        "shared_room": {
+            "available": "Yes",
+            "price": "5500",
+            "bed_type": {
+                "single": {
+                    "available": "Yes"
+                },
+                "double": {
+                    "available": "No"
+                }
+            },
+            "options_available": {
+                "ac": "No",
+                "furniture": "Yes",
+                "private_bathroom": "Yes"
+            }
+        }
     }
-  },
-  {
-    "id": 2,
-    "hostel_name": "test",
-    "owner_name": "own",
-    "price": "1000",
-    "contact_no": "234234",
-    "whatsapp_no": "12421342",
-    "quotient_deposit": "20000",
-    "distance": "1.5km",
-    "gender": "Boys",
-    "seats": {
-      "boys": "15",
-      "girls": "0"
-    },
-    "images": [
-      "../Images/placeholder.png",
-      "https://drive.google.com/u/0/open?usp=forms_web&id=1goizHfmLAHSW8CUdxg3t3F8ql8R1R1dj"
-    ],
-    "links": ["link1", "link2"],
-    "common_details": {
-      "wifi": "Yes",
-      "washing_machines": "Yes",
-      "filtered_water": "Yes",
-      "hot_water": "No",
-      "parking": "Yes",
-      "security": "Yes",
-      "cctv": "Yes",
-      "iron_box": "Yes",
-      "common_bathroom": "Yes",
-      "NOTA": "No"
-    },
-    "single_room": {
-      "available": "Yes",
-      "price": "1000",
-      "bed_type": {
-        "single": {
-          "available": "No"
-        },
-        "double": {
-          "available": "No"
-        }
-      },
-      "options_available": {
-        "ac": "Yes",
-        "furniture": "Yes",
-        "private_bathroom": "Yes"
-      }
-    },
-    "shared_room": {
-      "available": "Yes",
-      "price": "10000",
-      "bed_type": {
-        "single": {
-          "available": "Yes"
-        },
-        "double": {
-          "available": "Yes"
-        }
-      },
-      "options_available": {
-        "ac": "Yes",
-        "furniture": "Yes",
-        "private_bathroom": "Yes"
-      }
-    }
-  },
-  {
-    "id": 3,
-    "hostel_name": "Hostel_name",
-    "owner_name": "MT",
-    "price": "2000",
-    "contact_no": "5416514651",
-    "whatsapp_no": "7527547877",
-    "quotient_deposit": "25050",
-    "distance": "1km",
-    "gender": "Boys / Girls",
-    "seats": {
-      "boys": "15",
-      "girls": "15"
-    },
-    "images": [
-      "../Images/placeholder.png",
-      "https://drive.google.com/u/0/open?usp=forms_web&id=1NcRl6n_SOsCvGB8Cwg48UNfZn3EeWr4j",
-      "https://drive.google.com/u/0/open?usp=forms_web&id=1oeia81Zke7rT91WWm0TaxNbfH9tGT6lQ",
-      "https://drive.google.com/u/0/open?usp=forms_web&id=1OrPpSANjGXierD8ePEldtA1P_6R4uqWW",
-      "https://drive.google.com/u/0/open?usp=forms_web&id=1GIiwGrUivLvwv34QYGeoVLThMfZ1yNBH"
-    ],
-    "links": ["link1", "link2", "link3"],
-    "common_details": {
-      "wifi": "Yes",
-      "washing_machines": "Yes",
-      "filtered_water": "Yes",
-      "hot_water": "No",
-      "parking": "Yes",
-      "security": "Yes",
-      "cctv": "No",
-      "iron_box": "Yes",
-      "common_bathroom": "Yes",
-      "NOTA": "No"
-    },
-    "single_room": {
-      "available": "No",
-      "price": "N/A",
-      "bed_type": {
-        "single": {
-          "available": "No"
-        },
-        "double": {
-          "available": "No"
-        }
-      },
-      "options_available": {
-        "ac": "No",
-        "furniture": "No",
-        "private_bathroom": "No"
-      }
-    },
-    "shared_room": {
-      "available": "Yes",
-      "price": "2000",
-      "bed_type": {
-        "single": {
-          "available": "Yes"
-        },
-        "double": {
-          "available": "Yes"
-        }
-      },
-      "options_available": {
-        "ac": "No",
-        "furniture": "Yes",
-        "private_bathroom": "Yes"
-      }
-    }
-  }
 ]

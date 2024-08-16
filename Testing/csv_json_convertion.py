@@ -12,7 +12,7 @@ with open(filename, 'r') as csvfile:
             "id": idx,
             "hostel_name": row[1],
             "owner_name": row[2],
-            "price": row[13] if row[13] else row[16] if row[16] else "N/A",
+            "price": row[16] if row[16] else row[13] if row[13] else "N/A",
             "contact_no": row[3],
             "whatsapp_no": row[4],
             "quotient_deposit": row[5],
