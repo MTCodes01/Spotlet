@@ -149,7 +149,7 @@
         "price": "5500",
         "contact_no": "9847722137",
         "whatsapp_no": "9847722137",
-        "deposit": "--",
+        "deposit": "",
         "distance": "--km",
         "gender": "Male / Female",
         "seats": {
@@ -220,7 +220,7 @@
         "price": "5500",
         "contact_no": "8281603395",
         "whatsapp_no": "8281603395",
-        "deposit": "Contact Owner",
+        "deposit": "",
         "distance": "--km",
         "gender": "Male / Female",
         "seats": {
@@ -291,7 +291,7 @@
         "price": "5000",
         "contact_no": "9633375027",
         "whatsapp_no": "9633375027",
-        "deposit": "1000(Admin fee)",
+        "deposit": "A1000",
         "distance": "1.2km",
         "gender": "Female",
         "seats": {
@@ -361,7 +361,7 @@
         "price": "5000",
         "contact_no": "7591920211",
         "whatsapp_no": "7591920211",
-        "deposit": "500(Admin fees)",
+        "deposit": "A500",
         "distance": "--km",
         "gender": "Female",
         "seats": {

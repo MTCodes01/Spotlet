@@ -25,7 +25,9 @@ document.addEventListener("DOMContentLoaded", function () {
   }
 
   darkModeToggle.addEventListener("click", () => {
-    const currentTheme = body.classList.contains("dark-mode") ? "dark" : "light";
+    const currentTheme = body.classList.contains("dark-mode")
+      ? "dark"
+      : "light";
     const newTheme = currentTheme === "dark" ? "light" : "dark";
 
     applyTheme(newTheme);
@@ -74,12 +76,19 @@ document.addEventListener("DOMContentLoaded", function () {
       document.querySelectorAll(".hostel_card").forEach((card) => {
         card.addEventListener("click", function () {
           const hostelId = this.getAttribute("data-id");
-          window.location.href = `../Details/details.html?id=${encodeURIComponent(hostelId)}`;
+          window.location.href = `../Details/details.html?id=${encodeURIComponent(
+            hostelId
+          )}`;
         });
+      });
+
+      document.querySelector(".brand").addEventListener("click", function () {
+        window.location.href = `../Home/home.html`;
       });
     })
     .catch((error) => {
       console.error("Error fetching hostel data:", error);
-      container.innerHTML = "<p>Failed to load hostels. Please try again later.</p>";
+      container.innerHTML =
+        "<p>Failed to load hostels. Please try again later.</p>";
     });
 });

@@ -40,6 +40,7 @@ body {
 .navbar .brand {
   font-size: 20px;
   font-weight: bold;
+  cursor: pointer;
 }
 
 .navbar .dark-mode-toggle {
@@ -538,6 +539,32 @@ body {
   height: 100px;
 }
 
+.dots {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  padding: 4px 0;
+  width: 100%;
+  background-color: #333333;
+  gap: 10px;
+}
+
+.dark-mode .dots {
+  background-color: #e0e0e0;
+}
+
+.dot {
+  width: 5px;
+  height: 5px;
+  background-color: white;
+  border-radius: 50%;
+}
+
+.dark-mode .dot {
+  background-color: rgb(0, 0, 0);
+}
+
 /* #hostelDetailsContainer {
   display: flex;
   flex-direction: column;
@@ -679,6 +706,7 @@ body {
   justify-content: center;
   padding: 10px 0px;
   border-radius: 8px;
+  font-size: 13px;
 }
 
 .contact a {
@@ -690,13 +718,22 @@ body {
   color: #000;
 }
 
-.contact span {
+.contact span, .call {
   font-weight: normal;
   margin-right: 5px;
   color: #ccc;
 }
 
-.dark-mode .contact span {
+.call {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: -10px;
+  font-size: 10px;
+  font-style: italic;
+}
+
+.dark-mode .contact span, .dark-mode .call {
   color: #0000007f;
 }
 

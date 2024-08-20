@@ -59,9 +59,24 @@ document.addEventListener("DOMContentLoaded", function () {
 
       document.querySelector("#hostelName").textContent = hostel.hostel_name;
       document.querySelector("#hostelPrice").textContent = `₹${hostel.price}`;
-      document.querySelector(
-        "#hostelDeposit"
-      ).textContent = `₹${hostel.deposit}`;
+
+      feeAdminDeposit = document.querySelector("#hostelDeposit");
+      textFeeExtra = document.querySelector("#feeExtraText");
+      extraFee = hostel.deposit;
+
+      if (extraFee) {
+        if (extraFee[0] == "A") {
+          feeAdminDeposit.textContent = `₹${hostel.deposit.slice(1)}`;
+          textFeeExtra.textContent = `Admission Fee`;
+        } else {
+          feeAdminDeposit.textContent = `₹${hostel.deposit}`;
+          textFeeExtra.textContent = `Quotient Deposit`;
+        }
+      } else {
+        feeAdminDeposit.textContent = ``;
+        textFeeExtra.textContent = `No extra Fee`;
+      }
+
       document.querySelector("#hostelDistance").textContent = hostel.distance;
       document.querySelector("#hostelGender").textContent = hostel.gender;
       const contact = document.querySelector("#hostelContact .contact_no");
@@ -220,18 +235,28 @@ document.addEventListener("DOMContentLoaded", function () {
 
       // Image gallery
       const imageGallery = document.querySelector(".image-gallery");
+      const dotGallery = document.querySelector(".dots");
       imageGallery.textContent = "";
       hostel.images.forEach((imageSrc) => {
         const img = document.createElement("img");
+        const dot = document.createElement("div");
+        dot.className = `dot`;
         img.src = `../Images/` + imageSrc;
         img.alt = `placeholder.png`;
         imageGallery.appendChild(img);
+        dotGallery.appendChild(dot);
       });
 
       document
         .querySelector(".location")
         .addEventListener("click", function () {
           window.location.href = `${hostel["links"][0]}`;
+        });
+
+      document
+        .querySelector(".brand")
+        .addEventListener("click", function () {
+          window.location.href = `../Home/home.html`;
         });
     })
     .catch((error) => console.error("Error fetching hostel details:", error));
