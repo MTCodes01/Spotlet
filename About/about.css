@@ -1,7 +1,26 @@
+html {
+  padding: 0;
+  margin: 0;
+}
+
 body {
   margin: 0;
   padding: 0;
   font-family: Arial, sans-serif;
+  color: #ffffff;
+  background-color: #121212;
+  height: 100%;
+  width: 100%;
+}
+
+.dark-mode {
+  background-color: #e6e6e6;
+  color: #000;
+}
+
+.wrapper {
+  z-index: 0;
+  height: 100%;
   background-color: #121212;
 }
 
@@ -15,12 +34,19 @@ body {
   background: rgba(0, 0, 0, 0.8);
   backdrop-filter: blur(10px);
   color: white;
-  padding: 20px 0;
+  padding: 20px 0px;
+  z-index: 100;
+}
+
+.dark-mode .navbar {
+  background: rgba(255, 255, 255, 0.8);
+  color: black;
 }
 
 .navbar .brand {
   font-size: 20px;
   font-weight: bold;
+  cursor: pointer;
 }
 
 .navbar .dark-mode-toggle {
@@ -45,16 +71,25 @@ body {
   margin: 3px 0;
 }
 
+.dark-mode .navbar .hamburger-menu div {
+  background: black;
+}
+
 .navbar .dropdown {
   display: none;
   position: absolute;
   top: 64px;
-  right: 0;
+  right: 0px;
   background-color: rgba(0, 0, 0, 0.8);
   color: white;
   flex-direction: column;
   width: 150px;
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.dark-mode .navbar .dropdown {
+  background-color: rgba(255, 255, 255, 0.8);
+  color: black;
 }
 
 .navbar .dropdown a {
@@ -68,73 +103,148 @@ body {
   background-color: rgba(0, 0, 0, 0.2);
 }
 
-.dark-mode body {
-  background-color: #f4f4f4;
-  color: #333;
-}
-
-.dark-mode .navbar {
-  background: rgba(255, 255, 255, 0.8);
-  color: black;
-}
-
-.dark-mode .navbar .hamburger-menu div {
-  background: black;
-}
-
-.dark-mode .navbar .dropdown {
-  background-color: rgba(255, 255, 255, 0.8);
-  color: black;
-}
-
 .dark-mode .navbar .dropdown a:hover {
   background-color: rgba(255, 255, 255, 0.6);
 }
 
-main {
-  display: flex;
-  justify-content: center;
-  padding: 20px;
-}
-
-#about {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  padding-top: 40px;
-}
-
-.about-content {
-  max-width: 800px;
-  width: 100%;
-  padding: 20px;
-  background: linear-gradient(135deg, #e3f2fd, #bbdefb);
-  border: 1px solid #ccc;
-  border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-.about-content h2 {
-  font-size: 2em;
-  margin-bottom: 20px;
-  color: #3f51b5;
-}
-
-.about-content p {
-  margin-bottom: 15px;
-  font-size: 1em;
-  color: #666;
-}
-
-.about-content a {
-  color: #3f51b5;
-  text-decoration: none;
-}
-
-.about-content a:hover {
-  text-decoration: underline;
+.dark-mode .wrapper {
+  background-color: #e6e6e6;
 }
 
 .dropdown.show {
   display: flex;
+}
+
+.cards {
+  display: flex;
+}
+
+.name {
+    font-size: larger;
+    font-weight: bolder;
+}
+
+p {
+    text-align: justify;
+    text-justify: inter-word;
+    padding: 0 20px;
+}
+
+div.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: -30px;
+  width: 100%;
+  height: 45vh;
+}
+
+div.grid {
+  margin: 20px auto;
+  width: 200px;
+  height: 60px;
+  display: grid;
+  grid-template-columns: 70px 70px;
+  grid-row: auto auto;
+  justify-content: center;
+  align-items: center;
+}
+
+div.buttoncontainer {
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+a.button {
+  width: 60px;
+  height: 60px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+a.button:hover {
+  transition: linear;
+  transition-duration: 100ms;
+  scale: 1.05;
+}
+
+a.instagram {
+  background-color: white;
+  color: #c43cab;
+  border-top-left-radius: 180px;
+  transition: linear;
+  transition-duration: 100ms;
+}
+
+a.linkedin {
+  background-color: white;
+  color: #13b2f7;
+  border-top-right-radius: 180px;
+  transition: linear;
+  transition-duration: 100ms;
+}
+
+a.youtube {
+  background-color: white;
+  color: #ff0000;
+  border-bottom-right-radius: 180px;
+  transition: linear;
+  transition-duration: 100ms;
+}
+
+a.github {
+  background-color: white;
+  color: #010001;
+  border-bottom-left-radius: 180px;
+  transition: linear;
+  transition-duration: 100ms;
+}
+
+a.discord {
+  background-color: white;
+  color: #8f99ff;
+  border-bottom-right-radius: 180px;
+  transition: linear;
+  transition-duration: 100ms;
+}
+
+a.instagram:hover {
+  background-color: #c43cab;
+  color: white;
+}
+
+a.linkedin:hover {
+  background-color: #13b2f7;
+  color: white;
+}
+
+a.github:hover {
+  background-color: #010001;
+  color: white;
+}
+
+a.discord:hover {
+  background-color: #8f99ff;
+  color: white;
+}
+
+a.youtube:hover {
+  background-color: #ff0000;
+  color: white;
+}
+
+a.instagram:hover,
+a.linkedin:hover,
+a.youtube:hover,
+a.github:hover,
+a.discord:hover {
+  box-shadow: 0 0 20px grey;
 }

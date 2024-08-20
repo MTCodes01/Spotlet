@@ -3,6 +3,15 @@ document.addEventListener("DOMContentLoaded", function () {
   const body = document.body;
   const hamburgerMenu = document.querySelector(".hamburger-menu");
   const dropdown = document.querySelector(".dropdown");
+  const container = document.querySelector(".container");
+  const text = baffle(".name");
+  text.set({
+    characters: "░▒░ ░██░> ████▓ >█> ░/█>█ ██░░ █<▒ ▓██░ ░/░▒",
+    speed: 180,
+  });
+
+  text.start();
+  text.reveal(8000);
 
   function applyTheme(theme) {
     if (theme === "dark") {
@@ -14,12 +23,15 @@ document.addEventListener("DOMContentLoaded", function () {
     }
   }
 
+  document.querySelector(".brand").addEventListener("click", function () {
+    window.location.href = `../Home/home.html`;
+  });
+
   const savedTheme = localStorage.getItem("theme");
   if (savedTheme) {
     applyTheme(savedTheme);
   } else {
-    // Default theme if not set
-    applyTheme("dark");
+    applyTheme("dark"); // Default to dark mode
   }
 
   darkModeToggle.addEventListener("click", () => {
@@ -28,7 +40,6 @@ document.addEventListener("DOMContentLoaded", function () {
       : "light";
     const newTheme = currentTheme === "dark" ? "light" : "dark";
 
-    // Apply the new theme and save it to localStorage
     applyTheme(newTheme);
     localStorage.setItem("theme", newTheme);
   });
