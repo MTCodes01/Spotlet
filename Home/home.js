@@ -52,7 +52,7 @@ document.addEventListener("DOMContentLoaded", function () {
       data.forEach((hostel) => {
         const hostelCard = `
             <div class="hostel_card" data-id="${hostel.id}">
-              <div class="top" style="background-image: url('../Images/placeholder.png');">
+              <div class="top" style="background-image: url('../Images/${hostel["images"][0]}');">
                 <div class="prize">₹${hostel.price} <span class="sub">/ month</span></div>
               </div>
               <div class="bottom">

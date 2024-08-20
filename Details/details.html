@@ -22,21 +22,41 @@
           <a href="../Contact/contact.html">Contact</a>
         </div>
       </div>
-      <div class="progress">
+      <!-- <div class="progress">
         <h1 align="center" style="color: lime">In progress...</h1>
-      </div>
+      </div> -->
       <div class="container">
         <div class="hostel_details">
           <div class="image-gallery">
             <!-- Images will be dynamically inserted here -->
           </div>
-          <h1 align="center" id="hostelName">Hostel Name</h1>
-          <p align="center" id="hostelPrice">-- / month</p>
-          <p align="center" id="hostelDistance">-- km from College</p>
-          <p align="center" id="hostelGender">Male</p>
-
+          <div class="top">
+            <h1 align="left" id="hostelName">Hostel Name</h1>
+            <div class="location">
+              <div class="icon"></div>
+              <div class="link-icon">
+                <div class="segment first-segment"></div>
+                <div class="segment second-segment"></div>
+              </div>
+            </div>
+          </div>
+          <div class="sub-top">
+            <p class="price price_text"><strong id="hostelPrice">--</strong> / month</p>
+            <p id="hostelGender">--</p>
+          </div>
+          <div class="info-container">
+            <span class="fee"
+              ><strong id="hostelDeposit">--</strong
+              ><span>Admission Fee</span></span
+            >
+            <div class="separator"></div>
+            <span class="distance"
+              ><strong id="hostelDistance">-- km</strong
+              ><span>from College</span></span
+            >
+          </div>
           <div class="amenities">
-            <h2 align="center">Amenities</h2>
+            <h2 align="center" class="main">Amenities</h2>
 
             <div class="box_same common_details">
               <h2 align="center">Common</h2>
@@ -83,7 +103,7 @@
             <div class="box_same single_room">
               <div class="single_top">
                 <h2>Single Room</h2>
-                <p id="singleRoomPrice">-- / month</p>
+                <p id="singleRoomPrice" class="price">-- / month</p>
               </div>
               <div class="amenities-grid">
                 <div class="amenity">
@@ -112,7 +132,7 @@
             <div class="box_same shared_room">
               <div class="shared_top">
                 <h2>Shared Room</h2>
-                <p id="sharedRoomPrice">₹800 / month</p>
+                <p id="sharedRoomPrice" class="price">-- / month</p>
               </div>
               <div class="amenities-grid">
                 <div class="amenity">

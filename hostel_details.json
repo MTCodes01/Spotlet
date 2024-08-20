@@ -6,15 +6,19 @@
         "price": "6000",
         "contact_no": "8281892291",
         "whatsapp_no": "9895133828",
-        "quotient_deposit": "3000",
-        "distance": "Nilkm",
-        "gender": "Boys",
+        "deposit": "3000",
+        "distance": "--km",
+        "gender": "Male",
         "seats": {
             "boys": "10",
             "girls": "0"
         },
         "images": [
-            "https://drive.google.com/u/0/open?usp=forms_web&id=1PnreHjokT8NIOtNJ_mMvgRvIS_JRuRQ9"
+            "placeholder.png",
+            "placeholder.png",
+            "placeholder.png",
+            "placeholder.png",
+            "placeholder.png"
         ],
         "links": [
             "Nil"
@@ -70,21 +74,26 @@
         "id": 2,
         "hostel_name": "S.S Ladies Hostel",
         "owner_name": "Saju",
-        "price": "5500 dorm",
+        "price": "5500",
         "contact_no": "9745354655",
         "whatsapp_no": "9745354655",
-        "quotient_deposit": "1000",
-        "distance": "Nilkm",
-        "gender": "Girls",
+        "deposit": "1000",
+        "distance": "--km",
+        "gender": "Female",
         "seats": {
             "boys": "0",
             "girls": "15"
         },
         "images": [
-            "https://drive.google.com/u/0/open?usp=forms_web&id=1EDrby84MgpyvRdFwKyrPU6yqiwSvLgRa"
+            "img_1.jpg",
+            "img_2.jpg",
+            "img_3.jpg",
+            "img_4.jpg"
         ],
         "links": [
-            "Nil"
+            "https://www.google.com/maps/place/8%C2%B041'49.6%22N+76%C2%B048'58.5%22E/@8.6971109",
+            "76.8136817",
+            "17z/data=!3m1!4b1!4m4!3m3!8m2!3d8.6971109!4d76.8162566?entry=ttu"
         ],
         "common_details": {
             "wifi": "No",
@@ -117,7 +126,7 @@
         },
         "shared_room": {
             "available": "Yes",
-            "price": "5500 dorm",
+            "price": "5500",
             "bed_type": {
                 "single": {
                     "available": "No"
@@ -140,15 +149,19 @@
         "price": "5500",
         "contact_no": "9847722137",
         "whatsapp_no": "9847722137",
-        "quotient_deposit": "Nil",
-        "distance": "Nilkm",
-        "gender": "Boys / Girls",
+        "deposit": "--",
+        "distance": "--km",
+        "gender": "Male / Female",
         "seats": {
             "boys": "26",
             "girls": "6"
         },
         "images": [
-            "https://drive.google.com/u/0/open?usp=forms_web&id=1dwNrD9cccVsdoptjPC1rBSM_bFW77bhw"
+            "placeholder.png",
+            "placeholder.png",
+            "placeholder.png",
+            "placeholder.png",
+            "placeholder.png"
         ],
         "links": [
             "Nil"
@@ -207,15 +220,19 @@
         "price": "5500",
         "contact_no": "8281603395",
         "whatsapp_no": "8281603395",
-        "quotient_deposit": "Contact Owner",
-        "distance": "Nilkm",
-        "gender": "Boys / Girls",
+        "deposit": "Contact Owner",
+        "distance": "--km",
+        "gender": "Male / Female",
         "seats": {
             "boys": "20",
             "girls": "20"
         },
         "images": [
-            "https://drive.google.com/u/0/open?usp=forms_web&id=1wPfbM--qYQqwvJsr_Djps6fASFVIqFx2"
+            "placeholder.png",
+            "placeholder.png",
+            "placeholder.png",
+            "placeholder.png",
+            "placeholder.png"
         ],
         "links": [
             "Nil"
@@ -252,6 +269,148 @@
         "shared_room": {
             "available": "Yes",
             "price": "5500",
+            "bed_type": {
+                "single": {
+                    "available": "Yes"
+                },
+                "double": {
+                    "available": "No"
+                }
+            },
+            "options_available": {
+                "ac": "No",
+                "furniture": "Yes",
+                "private_bathroom": "Yes"
+            }
+        }
+    },
+    {
+        "id": 5,
+        "hostel_name": "Vinayaka",
+        "owner_name": "Preemanandh",
+        "price": "5000",
+        "contact_no": "+91 96333 75027",
+        "whatsapp_no": "+91 96333 75027",
+        "deposit": "1000(Admin fee)",
+        "distance": "--km",
+        "gender": "Female",
+        "seats": {
+            "boys": "0",
+            "girls": "12"
+        },
+        "images": [
+            "placeholder.png",
+            "placeholder.png",
+            "placeholder.png",
+            "placeholder.png",
+            "placeholder.png"
+        ],
+        "links": [
+            "Nil"
+        ],
+        "common_details": {
+            "wifi": "Yes",
+            "washing_machines": "Yes",
+            "filtered_water": "Yes",
+            "hot_water": "No",
+            "parking": "Yes",
+            "security": "No",
+            "cctv": "Yes",
+            "iron_box": "Yes",
+            "common_bathroom": "Yes",
+            "NOTA": "No"
+        },
+        "single_room": {
+            "available": "No",
+            "price": "N/A",
+            "bed_type": {
+                "single": {
+                    "available": "No"
+                },
+                "double": {
+                    "available": "No"
+                }
+            },
+            "options_available": {
+                "ac": "No",
+                "furniture": "No",
+                "private_bathroom": "No"
+            }
+        },
+        "shared_room": {
+            "available": "Yes",
+            "price": "5000",
+            "bed_type": {
+                "single": {
+                    "available": "Yes"
+                },
+                "double": {
+                    "available": "No"
+                }
+            },
+            "options_available": {
+                "ac": "Yes",
+                "furniture": "Yes",
+                "private_bathroom": "Yes"
+            }
+        }
+    },
+    {
+        "id": 6,
+        "hostel_name": "Guru Padham",
+        "owner_name": "Leena Mani",
+        "price": "5000",
+        "contact_no": "+91 75919 20211",
+        "whatsapp_no": "+91 75919 20211",
+        "deposit": "500(Admin fees)",
+        "distance": "--km",
+        "gender": "Female",
+        "seats": {
+            "boys": "0",
+            "girls": "10"
+        },
+        "images": [
+            "placeholder.png",
+            "placeholder.png",
+            "placeholder.png",
+            "placeholder.png",
+            "placeholder.png"
+        ],
+        "links": [
+            "Nil"
+        ],
+        "common_details": {
+            "wifi": "No",
+            "washing_machines": "No",
+            "filtered_water": "No",
+            "hot_water": "No",
+            "parking": "Yes",
+            "security": "No",
+            "cctv": "No",
+            "iron_box": "No",
+            "common_bathroom": "Yes",
+            "NOTA": "No"
+        },
+        "single_room": {
+            "available": "No",
+            "price": "N/A",
+            "bed_type": {
+                "single": {
+                    "available": "No"
+                },
+                "double": {
+                    "available": "No"
+                }
+            },
+            "options_available": {
+                "ac": "No",
+                "furniture": "No",
+                "private_bathroom": "No"
+            }
+        },
+        "shared_room": {
+            "available": "Yes",
+            "price": "5000",
             "bed_type": {
                 "single": {
                     "available": "Yes"

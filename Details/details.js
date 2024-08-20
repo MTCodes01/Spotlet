@@ -60,7 +60,8 @@ document.addEventListener("DOMContentLoaded", function () {
       document.querySelector("#hostelName").textContent = hostel.hostel_name;
       document.querySelector(
         "#hostelPrice"
-      ).textContent = `₹${hostel.price} / month`;
+      ).textContent = `₹${hostel.price}`;
+      document.querySelector("#hostelDeposit").textContent = hostel.deposit;
       document.querySelector("#hostelDistance").textContent = hostel.distance;
       document.querySelector("#hostelGender").textContent = hostel.gender;
 
@@ -93,6 +94,7 @@ document.addEventListener("DOMContentLoaded", function () {
         const commonGrid = document.querySelector(
           ".common_details .amenities-grid"
         );
+        document.querySelector(".common_details").classList.add("NA");
         commonGrid.innerHTML = '<div class="not_available">Not available</div>';
         commonGrid.style.position = "relative";
       }
@@ -144,11 +146,12 @@ document.addEventListener("DOMContentLoaded", function () {
       });
 
       if (singleShouldStop) {
-        document.querySelector("#singleRoomPrice").textContent = "";
+        document.querySelector("#singleRoomPrice").style.display = "none";
         document.querySelector(".single_top").style.textAlign = "center";
         const singleGrid = document.querySelector(
           ".single_room .amenities-grid"
         );
+        document.querySelector(".single_room").classList.add("NA");
         const singleTop = document.querySelector(".single_top");
         singleGrid.innerHTML = '<div class="not_available">Not available</div>';
         singleGrid.style.position = "relative";
@@ -206,18 +209,25 @@ document.addEventListener("DOMContentLoaded", function () {
         const singleGrid = document.querySelector(
           ".shared_room .amenities-grid"
         );
+        document.querySelector(".shared_room").classList.add("NA");
         singleGrid.innerHTML = '<div class="not_available">Not available</div>';
         singleGrid.style.position = "relative";
       }
 
-      // Populate image gallery
+      // Image gallery
       const imageGallery = document.querySelector(".image-gallery");
       hostel.images.forEach((imageSrc) => {
         const img = document.createElement("img");
-        img.src = imageSrc;
-        img.alt = hostel.hostel_name;
+        img.src = `../Images/` + imageSrc;
+        img.alt = `placeholder.png`;
         imageGallery.appendChild(img);
       });
+
+      document
+        .querySelector(".location")
+        .addEventListener("click", function () {
+          window.location.href = `${hostel["links"][0]}`;
+        });
     })
     .catch((error) => console.error("Error fetching hostel details:", error));
 });
