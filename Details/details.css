@@ -137,7 +137,7 @@ body {
   margin: auto;
   background-color: #202020;
   color: white;
-  border-radius: 40px;
+  border-radius: 10px;
   box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
 }
 
@@ -154,7 +154,7 @@ body {
 
 .hostel_details h1 {
   margin: 0 0 10px;
-  font-size: 7vw;
+  font-size: 6vw;
 }
 
 .hostel_details p {
@@ -190,8 +190,8 @@ body {
   overflow-x: auto;
   gap: 10px;
   background: transparent;
-  border-radius: 20px;
-  margin-bottom: 20px;
+  border-radius: 10px 10px 0 0;
+  /* margin-bottom: 20px; */
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
 }
 
@@ -203,7 +203,7 @@ body {
   min-height: 200px;
   max-height: 350px;
   object-fit: cover;
-  border-radius: 8px;
+  border-radius: 10px 10px 0 0;
   flex-shrink: 0;
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
 }
@@ -277,16 +277,16 @@ body {
 
 .location {
   position: relative;
-  width: 60px;
-  height: 60px;
+  width: 50px;
+  height: 50px;
   cursor: pointer;
   margin-left: auto;
 }
 
 .icon {
   position: relative;
-  width: 30px;
-  height: 19px;
+  width: 20px;
+  height: 9px;
   background-color: red;
   border-top-left-radius: 100px;
   border-top-right-radius: 100px;
@@ -303,20 +303,20 @@ body {
   transform: translateX(-50%);
   width: 0;
   height: 0;
-  border-left: 15px solid transparent;
-  border-right: 15px solid transparent;
-  border-top: 25px solid red;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 20px solid red;
   z-index: 10;
 }
 
 .icon::before {
   content: "";
   position: absolute;
-  top: 75%;
+  top: 85%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 15px;
-  height: 15px;
+  width: 8px;
+  height: 8px;
   background-color: #202020;
   border: none;
   border-radius: 50%;
@@ -330,36 +330,35 @@ body {
 .link-icon {
   position: absolute;
   top: -5px;
-  right: 25px;
+  /* right: 18px; */
+  left: 10px;
   width: 20px;
   height: 20px;
   z-index: 14;
 }
 
 .segment {
-  width: 20px;
+  width: 15px;
   height: 10px;
-  border: 2px solid white;
+  border: 2px solid;
   border-radius: 5px;
   box-sizing: border-box;
   background-color: transparent;
   position: absolute;
 }
 
-.dark-mode .segment {
-  border-color: #000;
-}
-
 .first-segment {
+  border-color: rgb(0, 110, 255);
   transform: rotate(-30deg);
   top: 2px;
-  left: 0;
+  left: -3px;
 }
 
 .second-segment {
-  transform: rotate(60deg);
-  top: 7px;
-  left: 10px;
+  border-color: rgb(0, 170, 255);
+  transform: rotate(50deg);
+  top: 5px;
+  left: 3px;
 }
 
 .success-checkmark,
@@ -370,7 +369,7 @@ body {
   padding: 0 0 0.8px 0;
   width: 22px; /* Fixed width */
   height: 22px; /* Fixed height */
-  color: rgba(255, 255, 255, 0.5);
+  color: rgba(255, 255, 255);
   background-color: transparent;
   border-radius: 50%;
   border: 2px solid #ffffff;
@@ -397,7 +396,7 @@ body {
 .dark-mode .success-checkmark,
 .dark-mode .crosssign {
   color: black;
-  border-color: rgba(0, 0, 0, 0.5);
+  border-color: rgba(0, 0, 0);
 }
 
 .amenities h2 {
@@ -427,7 +426,6 @@ body {
 
 .dark-mode :is(.common_details, .single_room, .shared_room) {
   background-color: #e0e0e0;
-  box-shadow: 0 0 15px rgba(255, 255, 255, 0.3);
 }
 
 .amenities-grid {
@@ -485,8 +483,10 @@ body {
 }
 
 .hostel_details .price_text {
-  top: 0;
-  color: #ffffffbb;
+  top: 10px;
+  font-weight: normal;
+  font-size: 13px;
+  color: #ccc;
 }
 
 .dark-mode .hostel_details .price_text {
@@ -556,6 +556,17 @@ body {
   text-align: center;
 }*/
 
+.main-top {
+  padding: 10px 20px;
+  border-radius: 0 0 10px 10px;
+  background-color: #333333;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+
+.dark-mode .main-top {
+  background-color: #e0e0e0;
+}
+
 .sub-top {
   /* grid-column: span 4; */
   display: grid;
@@ -578,7 +589,7 @@ body {
   background-color: #444444;
   padding: 5px 10px;
   border-radius: 5px;
-  font-size: 20px;
+  font-size: 15px;
   font-weight: 500;
   text-transform: capitalize;
   color: #ffffff;
@@ -636,7 +647,7 @@ body {
 
 .separator {
   width: 2px;
-  height: 20px;
+  height: 30px;
   background-color: #ffffffbe;
   margin: 0 15px;
 }
@@ -655,14 +666,43 @@ body {
 }
 
 .dark-mode .separator {
-  width: 2px;
-  height: 20px;
   background-color: #000000be;
-  margin: 0 15px;
 }
 
 .distance strong {
   font-weight: bold;
+}
+
+.contact {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 0px;
+  border-radius: 8px;
+}
+
+.contact a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.dark-mode .contact a {
+  color: #000;
+}
+
+.contact span {
+  font-weight: normal;
+  margin-right: 5px;
+  color: #ccc;
+}
+
+.dark-mode .contact span {
+  color: #0000007f;
+}
+
+.contact_no {
+  font-weight: bold;
+  color: #000;
 }
 
 @media (min-width: 768px) {
@@ -670,12 +710,11 @@ body {
     grid-template-columns: repeat(3, 1fr);
   }
 
-  .hostel_details h1 {
-    font-size: 4vw;
+  .hostel_details .main-top h1 {
+    font-size: 3vw;
   }
 
   .location {
-    top: 10px;
     left: 0px;
   }
 }

@@ -58,12 +58,16 @@ document.addEventListener("DOMContentLoaded", function () {
       }
 
       document.querySelector("#hostelName").textContent = hostel.hostel_name;
+      document.querySelector("#hostelPrice").textContent = `₹${hostel.price}`;
       document.querySelector(
-        "#hostelPrice"
-      ).textContent = `₹${hostel.price}`;
-      document.querySelector("#hostelDeposit").textContent = hostel.deposit;
+        "#hostelDeposit"
+      ).textContent = `₹${hostel.deposit}`;
       document.querySelector("#hostelDistance").textContent = hostel.distance;
       document.querySelector("#hostelGender").textContent = hostel.gender;
+      const contact = document.querySelector("#hostelContact .contact_no");
+      contact.setAttribute("href", `tel:"+91 ${hostel.contact_no}"`);
+      contact.textContent = `+91 ${hostel.contact_no}`;
+      // document.querySelector("#hostelContact .whatsapp_no").textContent = hostel.whatsapp_no;
 
       const amenities = [
         { id: "wifi", checkId: "wifiCheck" },
@@ -216,6 +220,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
       // Image gallery
       const imageGallery = document.querySelector(".image-gallery");
+      imageGallery.textContent = "";
       hostel.images.forEach((imageSrc) => {
         const img = document.createElement("img");
         img.src = `../Images/` + imageSrc;
