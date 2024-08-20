@@ -286,27 +286,26 @@
     },
     {
         "id": 5,
-        "hostel_name": "Vinayaka",
+        "hostel_name": "Sree Vinayaka",
         "owner_name": "Preemanandh",
         "price": "5000",
         "contact_no": "9633375027",
         "whatsapp_no": "9633375027",
         "deposit": "1000(Admin fee)",
-        "distance": "--km",
+        "distance": "1.2km",
         "gender": "Female",
         "seats": {
             "boys": "0",
             "girls": "12"
         },
         "images": [
-            "placeholder.png",
-            "placeholder.png",
-            "placeholder.png",
-            "placeholder.png",
-            "placeholder.png"
+            "img_11.jpg",
+            "img_12.jpg",
+            "img_13.jpg",
+            "img_14.jpg"
         ],
         "links": [
-            "Nil"
+            "https://maps.app.goo.gl/Bw7HRb3cvGD6F4kB9"
         ],
         "common_details": {
             "wifi": "Yes",
