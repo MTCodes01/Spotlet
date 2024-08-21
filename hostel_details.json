@@ -158,7 +158,9 @@
             "placeholder.png"
         ],
         "links": [
-            "Nil"
+            "https://www.google.com/maps/place/8%C2%B041'56.9%22N+76%C2%B048'54.7%22E/@8.6989337",
+            "76.8152357",
+            "20.12z/data=!4m4!3m3!8m2!3d8.6991355!4d76.8151804?entry=ttu"
         ],
         "common_details": {
             "wifi": "Yes",
@@ -362,8 +364,15 @@
             "girls": "10"
         },
         "images": [
-            "placeholder.png",
-            "placeholder.png"
+            "img_31.jpg",
+            "img_32.jpg",
+            "img_33.jpg",
+            "img_34.jpg",
+            "img_35.jpg",
+            "img_36.jpg",
+            "img_37.jpg",
+            "img_38.jpg",
+            "Vimg_39.mp4"
         ],
         "links": [
             "Nil"

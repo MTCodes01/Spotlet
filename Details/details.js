@@ -238,13 +238,26 @@ document.addEventListener("DOMContentLoaded", function () {
       const dotGallery = document.querySelector(".dots");
       imageGallery.textContent = "";
       hostel.images.forEach((imageSrc) => {
-        const img = document.createElement("img");
-        const dot = document.createElement("div");
-        dot.className = `dot`;
-        img.src = `../Images/` + imageSrc;
-        img.alt = `placeholder.png`;
-        imageGallery.appendChild(img);
-        dotGallery.appendChild(dot);
+        if (imageSrc[0] != "V") {
+          const img = document.createElement("img");
+          const dot = document.createElement("div");
+          dot.className = `dot`;
+          img.src = `../Images/` + imageSrc;
+          img.alt = `placeholder.png`;
+          imageGallery.appendChild(img);
+          dotGallery.appendChild(dot);
+        } else {
+          const vid = document.createElement("video");
+          vid.controls = true
+          vid.muted = true
+          
+          const dot = document.createElement("div");
+          dot.className = `dot`;
+          vid.src = `../Images/` + imageSrc.slice(1);
+          vid.alt = `placeholder.png`;
+          imageGallery.appendChild(vid);
+          dotGallery.appendChild(dot);
+        }
       });
 
       document
@@ -253,11 +266,9 @@ document.addEventListener("DOMContentLoaded", function () {
           window.location.href = `${hostel["links"][0]}`;
         });
 
-      document
-        .querySelector(".brand")
-        .addEventListener("click", function () {
-          window.location.href = `../Home/home.html`;
-        });
+      document.querySelector(".brand").addEventListener("click", function () {
+        window.location.href = `../Home/home.html`;
+      });
     })
     .catch((error) => console.error("Error fetching hostel details:", error));
 });
