@@ -1,73 +1,5 @@
 [
     {
-        "id": 1,
-        "hostel_name": "Shalabam",
-        "owner_name": "R Vijaya kumar",
-        "price": "6000",
-        "contact_no": "8281892291",
-        "whatsapp_no": "9895133828",
-        "deposit": "3000",
-        "distance": "--km",
-        "gender": "Male",
-        "seats": {
-            "boys": "10",
-            "girls": "0"
-        },
-        "images": [
-            "placeholder.png",
-            "placeholder.png"
-        ],
-        "links": [
-            "Nil"
-        ],
-        "common_details": {
-            "wifi": "No",
-            "washing_machines": "No",
-            "filtered_water": "Yes",
-            "hot_water": "No",
-            "parking": "Yes",
-            "security": "Yes",
-            "cctv": "No",
-            "iron_box": "No",
-            "common_bathroom": "Yes",
-            "NOTA": "No"
-        },
-        "single_room": {
-            "available": "Yes",
-            "price": "Nil",
-            "bed_type": {
-                "single": {
-                    "available": "No"
-                },
-                "double": {
-                    "available": "No"
-                }
-            },
-            "options_available": {
-                "ac": "No",
-                "furniture": "No",
-                "private_bathroom": "Yes"
-            }
-        },
-        "shared_room": {
-            "available": "Yes",
-            "price": "6000",
-            "bed_type": {
-                "single": {
-                    "available": "Yes"
-                },
-                "double": {
-                    "available": "No"
-                }
-            },
-            "options_available": {
-                "ac": "No",
-                "furniture": "No",
-                "private_bathroom": "Yes"
-            }
-        }
-    },
-    {
         "id": 2,
         "hostel_name": "S.S Ladies Hostel",
         "owner_name": "Saju",
@@ -372,7 +304,7 @@
             "img_36.jpg",
             "img_37.jpg",
             "img_38.jpg",
-            "Vimg_39.mp4"
+            "Vvid_39.mp4"
         ],
         "links": [
             "Nil"
