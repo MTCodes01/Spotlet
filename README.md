@@ -15,9 +15,11 @@ Spotlet is a non-profit project developed by Sreedev and Muhammed, designed to h
 - [x] Complete homepage design
 - [x] Add more hostel details (added 6)
 - [x] UI for mobile devices
-- [ ] Finalize hostel image gallery (2 out of 6 done)
+- [ ] Finalize hostel image gallery (4 out of 6 done)
+- [ ] Finalize hostel locations (4 out of 6 done)
+- [x] Add an about us page
 - [x] Link all pages for seamless navigation
-- [ ] Test on different screen sizes and resolutions
+- [x] Test on different screen sizes and resolutions
 - [x] Add hostel amenities
 - [ ] Write documentation for future contributors
 
@@ -45,17 +47,32 @@ SPOTLET/
 │   ├── img_2.jpg
 │   ├── img_3.jpg
 │   ├── img_4.jpg
+│   ├── img_11.jpg
+│   ├── img_12.jpg
+│   ├── img_13.jpg
+│   ├── img_14.jpg
+│   ├── img_21.jpg
+│   ├── img_22.jpg
+│   ├── img_31.jpg
+│   ├── img_32.jpg
+│   ├── img_33.jpg
+│   ├── img_34.jpg
+│   ├── img_35.jpg
+│   ├── img_36.jpg
+│   ├── img_37.jpg
+│   ├── img_38.jpg
+│   ├── vid_39.mp4
 │   ├── loading.png
 │   └── placeholder.png
 │
 ├── Testing/
 │   ├── csv_json_convertion.py
 │   ├── Hostel_details.csv
+|   ├── Layout_test.json
 │   ├── Main_home_layout.html
 │   └── view_csv.py
 │
 ├── hostel_details.json
-├── hostels.json
 ├── index.html
 ├── script.js
 ├── styles.css
@@ -68,8 +85,12 @@ To access the website, simply click [here](https://mtcodes01.github.io/Spotlet/)
 
 ## Contributors
 
-**Sreedev:** [GitHub Profile](https://github.com/YourGitHubProfile)  
+**Sreedev:** [GitHub Profile](https://github.com/MTCodes01)
 *Project co-creator focused on frontend, functionality and design.*
 
-**Muhammed:** [GitHub Profile](https://github.com/HisGitHubProfile)  
+**Muhammed:** [GitHub Profile](https://github.com/muhammeds88)
 *Project co-creator focused on frontend and details collection from hostel owners.*
+
+<div align="center">
+  Made by MTCode01 and , when i was bored!
+</div>
