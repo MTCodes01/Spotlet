@@ -355,5 +355,75 @@
                 "private_bathroom": "Yes"
             }
         }
+    },
+    {
+        "id": 7,
+        "hostel_name": "S.N.V Ladies Hostel",
+        "owner_name": "Sandhya",
+        "price": "5000",
+        "contact_no": "7034343476",
+        "whatsapp_no": "08075602057",
+        "deposit": "",
+        "distance": "0.95km",
+        "gender": "Female",
+        "seats": {
+            "boys": "0",
+            "girls": "8"
+        },
+        "images": [
+            "placeholder.png",
+            "placeholder.png"
+        ],
+        "links": [
+            "https://www.google.com/maps/place/S.N.V+Ladies+Hostel/@8.6970151",
+            "76.8124005",
+            "17z/data=!3m1!4b1!4m6!3m5!1s0x3b05e9f1c3346dfb:0x3b86ee314df0b45c!8m2!3d8.6970098!4d76.8149754!16s%2Fg%2F11stspr0pq?hl=en-IN&entry=ttu"
+        ],
+        "common_details": {
+            "wifi": "No",
+            "washing_machines": "No",
+            "filtered_water": "Yes",
+            "hot_water": "No",
+            "parking": "No",
+            "security": "Yes",
+            "cctv": "No",
+            "iron_box": "Yes",
+            "common_bathroom": "Yes",
+            "NOTA": "No"
+        },
+        "single_room": {
+            "available": "Yes",
+            "price": "7000",
+            "bed_type": {
+                "single": {
+                    "available": "No"
+                },
+                "double": {
+                    "available": "No"
+                }
+            },
+            "options_available": {
+                "ac": "No",
+                "furniture": "Yes",
+                "private_bathroom": "Yes"
+            }
+        },
+        "shared_room": {
+            "available": "Yes",
+            "price": "5000",
+            "bed_type": {
+                "single": {
+                    "available": "Yes"
+                },
+                "double": {
+                    "available": "No"
+                }
+            },
+            "options_available": {
+                "ac": "No",
+                "furniture": "Yes",
+                "private_bathroom": "Yes"
+            }
+        }
     }
 ]
