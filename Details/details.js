@@ -250,7 +250,6 @@ document.addEventListener("DOMContentLoaded", function () {
           const vid = document.createElement("video");
           vid.controls = true
           vid.muted = true
-          
           const dot = document.createElement("div");
           dot.className = `dot`;
           vid.src = `../Images/` + imageSrc.slice(1);
