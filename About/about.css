@@ -124,6 +124,14 @@ body {
     font-weight: bolder;
 }
 
+.contact {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  color: #ffffffb1;
+  font-size: 12px;
+}
+
 p {
     text-align: justify;
     text-justify: inter-word;
