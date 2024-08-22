@@ -132,6 +132,10 @@ body {
   font-size: 12px;
 }
 
+.dark-mode .contact {
+  color: #000000b3;
+}
+
 p {
     text-align: justify;
     text-justify: inter-word;

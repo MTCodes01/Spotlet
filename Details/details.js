@@ -18,14 +18,14 @@ document.addEventListener("DOMContentLoaded", function () {
   if (savedTheme) {
     applyTheme(savedTheme);
   } else {
-    applyTheme("dark");
+    applyTheme("light");
   }
 
   darkModeToggle.addEventListener("click", () => {
     const currentTheme = body.classList.contains("dark-mode")
-      ? "dark"
-      : "light";
-    const newTheme = currentTheme === "dark" ? "light" : "dark";
+      ? "light"
+      : "dark";
+    const newTheme = currentTheme === "light" ? "dark" : "light";
 
     applyTheme(newTheme);
     localStorage.setItem("theme", newTheme);
@@ -70,7 +70,7 @@ document.addEventListener("DOMContentLoaded", function () {
           textFeeExtra.textContent = `Admission Fee`;
         } else {
           feeAdminDeposit.textContent = `₹${hostel.deposit}`;
-          textFeeExtra.textContent = `Quotient Deposit`;
+          textFeeExtra.textContent = `Caution Deposit`;
         }
       } else {
         feeAdminDeposit.textContent = ``;

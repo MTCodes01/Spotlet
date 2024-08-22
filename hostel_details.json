@@ -1,6 +1,6 @@
 [
     {
-        "id": 2,
+        "id": 1,
         "hostel_name": "S.S Ladies Hostel",
         "owner_name": "Saju",
         "price": "5500",
@@ -72,14 +72,14 @@
         }
     },
     {
-        "id": 3,
+        "id": 2,
         "hostel_name": "Ayshoo's PG",
         "owner_name": "Shemja MA",
         "price": "5500",
         "contact_no": "9847722137",
         "whatsapp_no": "9847722137",
         "deposit": "",
-        "distance": "--km",
+        "distance": "1.3km",
         "gender": "Male / Female",
         "seats": {
             "boys": "26",
@@ -142,14 +142,14 @@
         }
     },
     {
-        "id": 4,
+        "id": 3,
         "hostel_name": "Dhwaraka ",
         "owner_name": "Shella Mohan",
         "price": "5500",
         "contact_no": "8281603395",
         "whatsapp_no": "8281603395",
         "deposit": "",
-        "distance": "--km",
+        "distance": "1.3km",
         "gender": "Male / Female",
         "seats": {
             "boys": "20",
@@ -212,7 +212,7 @@
         }
     },
     {
-        "id": 5,
+        "id": 4,
         "hostel_name": "Sree Vinayaka",
         "owner_name": "Preemanandh",
         "price": "5000",
@@ -282,7 +282,7 @@
         }
     },
     {
-        "id": 6,
+        "id": 5,
         "hostel_name": "Guru Padham",
         "owner_name": "Leena Mani",
         "price": "5000",
@@ -304,7 +304,7 @@
             "img_36.jpg",
             "img_37.jpg",
             "img_38.jpg",
-            "Vvid_39.mp4"
+            "Vvid_40.mp4"
         ],
         "links": [
             "Nil"
@@ -357,7 +357,7 @@
         }
     },
     {
-        "id": 7,
+        "id": 6,
         "hostel_name": "S.N.V Ladies Hostel",
         "owner_name": "Sandhya",
         "price": "5000",
@@ -371,8 +371,12 @@
             "girls": "8"
         },
         "images": [
-            "placeholder.png",
-            "placeholder.png"
+            "img_41.jpg",
+            "img_42.jpg",
+            "img_43.jpg",
+            "img_44.jpg",
+            "img_45.jpg",
+            "img_46.jpg"
         ],
         "links": [
             "https://www.google.com/maps/place/S.N.V+Ladies+Hostel/@8.6970151",
