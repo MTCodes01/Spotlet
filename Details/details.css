@@ -13,6 +13,30 @@ body {
   width: 100%;
 }
 
+
+:root{
+  --white: #fff;
+  --black: #000;
+  --gray: #2b3c56;
+  --lite: #f1f1f1;
+  --dark: #1d1e22;
+  
+  --yellow: #f5b409;
+  --red: #f33e5d;
+  --green: #9bd846;
+  --blue: #029ef6;
+  --orange: #ee712f;
+  --pink: #ef5890;
+  
+  --primary: #5487fa;
+  --primary_dark: ;
+  --primary_lite: #e4ecfe;
+  
+  --secondary: ;
+  --secondary_dark: ;
+  --secondary_lite: ;
+}
+
 .dark-mode {
   background-color: #f9fafb;
   color: #000;
@@ -740,6 +764,103 @@ body {
 .contact_no {
   font-weight: bold;
   color: #000;
+}
+
+table{
+  margin:auto;
+  width:100%;
+  overflow:hidden;
+  background-color: #333333;
+  border-radius:10px;
+  position:relative;
+  border-collapse:collapse;
+  z-index:1;
+  color: var(--white);
+  white-space:nowrap;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+
+.dark-mode table {
+  background-color: #e0e0e0;
+  color: black;
+}
+
+tbody tr:not(:last-child){
+  border-bottom:2px solid rgba(255, 255, 255, 0.2);
+}
+
+tbody td:not(:last-child){
+  border-right:2px solid rgba(255, 255, 255, 0.2);
+}
+
+tbody th:not(:last-child){
+  border-right:2px solid rgba(255, 255, 255, 0.2);
+}
+
+.dark-mode tbody tr:not(:last-child){
+  border-color: rgba(0, 0, 0, 0.2);
+}
+
+.dark-mode tbody td:not(:last-child){
+  border-color: rgba(0, 0, 0, 0.2);
+}
+
+.dark-mode tbody th:not(:last-child){
+  border-color: rgba(0, 0, 0, 0.2);
+}
+
+th, td{
+  padding:1rem;
+  gap:10px;
+  position:relative;
+  cursor:default;
+}
+
+td:last-child:hover a{
+  color:var(--black);
+}
+
+thead{
+  background-color:var(--primary_lite);
+}
+
+th{
+  text-transform:uppercase;
+}
+
+td img{
+  width:11px;
+  height:11px;
+  border-radius:50%;
+  overflow:hidden;   
+  margin-right:5px;
+}
+
+tr td:last-child, tr td:nth-last-child(2), tr td:nth-last-child(3), tr td:nth-last-child(4), tr td:nth-last-child(6), tr td:nth-last-child(7), tr td:nth-last-child(8), tr td:nth-last-child(9){
+  text-align:center;
+}
+
+td:hover{
+  background-color:#4a4a4a;
+}
+
+td:last-child:hover:after{
+  position:absolute;
+  width:fit-content;
+  left:-10%;
+  top:-40%;
+  transform:translate(0%, 50%);
+  font-size:12px;
+  color: white;
+  background-color:var(--dark);
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  border-radius:5px;
+  padding:2px 4px;
+  z-index:9;
+}
+
+table a{
+  color: white;
 }
 
 @media (min-width: 768px) {
