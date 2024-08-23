@@ -430,7 +430,7 @@ body {
   color: #ffffff;
 }
 
-.amenities .main {
+.main {
   position: relative;
   bottom: -10px;
   margin: 0;
@@ -731,6 +731,10 @@ body {
   padding: 10px 0px;
   border-radius: 8px;
   font-size: 13px;
+}
+
+.avail_top {
+  margin: 2vh 0;
 }
 
 .contact a {
