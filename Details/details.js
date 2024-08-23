@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", function () {
   const dropdown = document.querySelector(".dropdown");
 
   function applyTheme(theme) {
-    if (theme === "dark") {
+    if (theme === "light") {
       body.classList.add("dark-mode");
       darkModeToggle.textContent = "☀️";
     } else {
@@ -26,6 +26,7 @@ document.addEventListener("DOMContentLoaded", function () {
       ? "light"
       : "dark";
     const newTheme = currentTheme === "light" ? "dark" : "light";
+    // console.log(newTheme)
 
     applyTheme(newTheme);
     localStorage.setItem("theme", newTheme);
@@ -83,6 +84,9 @@ document.addEventListener("DOMContentLoaded", function () {
       contact.setAttribute("href", `tel:"+91 ${hostel.contact_no}"`);
       contact.textContent = `+91 ${hostel.contact_no}`;
       // document.querySelector("#hostelContact .whatsapp_no").textContent = hostel.whatsapp_no;
+      
+      document.querySelector("#maleCount").textContent = hostel.seats.boys;
+      document.querySelector("#femaleCount").textContent = hostel.seats.girls;
 
       const amenities = [
         { id: "wifi", checkId: "wifiCheck" },

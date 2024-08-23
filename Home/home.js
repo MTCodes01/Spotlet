@@ -6,14 +6,12 @@ document.addEventListener("DOMContentLoaded", function () {
   const container = document.querySelector(".container");
 
   function applyTheme(theme) {
-    if (theme === "dark") {
+    if (theme === "light") {
       body.classList.add("dark-mode");
       darkModeToggle.textContent = "☀️";
-      container.style.color = "rgba(0, 0, 0, 0.7)";
     } else {
       body.classList.remove("dark-mode");
       darkModeToggle.textContent = "🌙";
-      container.style.color = "rgba(255, 255, 255, 0.7)";
     }
   }
 
@@ -21,14 +19,15 @@ document.addEventListener("DOMContentLoaded", function () {
   if (savedTheme) {
     applyTheme(savedTheme);
   } else {
-    applyTheme("dark"); // Default to dark mode
+    applyTheme("light");
   }
 
   darkModeToggle.addEventListener("click", () => {
     const currentTheme = body.classList.contains("dark-mode")
-      ? "dark"
-      : "light";
-    const newTheme = currentTheme === "dark" ? "light" : "dark";
+      ? "light"
+      : "dark";
+    const newTheme = currentTheme === "light" ? "dark" : "light";
+    // console.log(newTheme)
 
     applyTheme(newTheme);
     localStorage.setItem("theme", newTheme);

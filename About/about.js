@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", function () {
   text.reveal(8000);
 
   function applyTheme(theme) {
-    if (theme === "dark") {
+    if (theme === "light") {
       body.classList.add("dark-mode");
       darkModeToggle.textContent = "☀️";
     } else {
@@ -31,14 +31,15 @@ document.addEventListener("DOMContentLoaded", function () {
   if (savedTheme) {
     applyTheme(savedTheme);
   } else {
-    applyTheme("dark"); // Default to dark mode
+    applyTheme("light");
   }
 
   darkModeToggle.addEventListener("click", () => {
     const currentTheme = body.classList.contains("dark-mode")
-      ? "dark"
-      : "light";
-    const newTheme = currentTheme === "dark" ? "light" : "dark";
+      ? "light"
+      : "dark";
+    const newTheme = currentTheme === "light" ? "dark" : "light";
+    // console.log(newTheme)
 
     applyTheme(newTheme);
     localStorage.setItem("theme", newTheme);
