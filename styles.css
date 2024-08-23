@@ -22,35 +22,42 @@ body {
 @media (max-width: 751px) {
   body {
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-      url("./Images/loading.png") -1450px center/cover;
+      url("./Images/loading.png") 150vw center/cover;
   }
 }
 
 @media (max-width: 551px) {
   body {
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-      url("./Images/loading.png") -1500px center/cover;
+      url("./Images/loading.png") 160vw center/cover;
   }
 }
 
 @media (max-width: 451px) {
   body {
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-      url("./Images/loading.png") -1550px center/cover;
+      url("./Images/loading.png") 190vw center/cover;
   }
 }
 
 @media (max-width: 401px) {
   body {
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-      url("./Images/loading.png") -1550px center/cover;
+      url("./Images/loading.png") 210vw center/cover;
   }
 }
 
 @media (max-width: 351px) {
   body {
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-      url("./Images/loading.png") -1600px center/cover;
+      url("./Images/loading.png") 220vw center/cover;
+  }
+}
+
+@media (max-width: 301px) {
+  body {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url("./Images/loading.png") 240vw center/cover;
   }
 }
 
