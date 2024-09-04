@@ -15,6 +15,7 @@ with open(filename, 'r') as csvfile:
             "price": row[16] if row[16] else row[13] if row[13] else "N/A",
             "contact_no": row[3],
             "whatsapp_no": row[4],
+            "food": row[19],
             "deposit": row[5],
             "distance": f"{row[6]}km",
             "gender": row[8],

@@ -64,6 +64,13 @@ document.addEventListener("DOMContentLoaded", function () {
       feeAdminDeposit = document.querySelector("#hostelDeposit");
       textFeeExtra = document.querySelector("#feeExtraText");
       extraFee = hostel.deposit;
+      feeFood = hostel.food;
+
+      if (feeFood) {
+        document.querySelector(".food").style.display = "inline";
+        foodFee = document.querySelector("#Food");
+        foodFee.textContent = `₹${feeFood}`;
+      }
 
       if (extraFee) {
         if (extraFee[0] == "A") {
