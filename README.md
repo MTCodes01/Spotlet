@@ -15,8 +15,8 @@ Spotlet is a non-profit project developed by Sreedev and Muhammed, designed to h
 - [x] Complete homepage design
 - [x] Add more hostel details (added 6)
 - [x] UI for mobile devices
-- [ ] Finalize hostel image gallery (4 out of 6 done)
-- [ ] Finalize hostel locations (4 out of 6 done)
+- [x] Finalize hostel image gallery
+- [x] Finalize hostel locations
 - [x] Add an about us page
 - [x] Link all pages for seamless navigation
 - [x] Test on different screen sizes and resolutions
@@ -81,7 +81,7 @@ SPOTLET/
 ```
 ## Usage
 
-To access the website, simply click [here](https://mtcodes01.github.io/Spotlet/).
+To access the website, simply click [here](https://sreedevss.me/Spotlet/).
 
 ## Contributors
 
