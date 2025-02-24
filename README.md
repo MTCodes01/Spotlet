@@ -92,5 +92,5 @@ To access the website, simply click [here](https://sreedevss.me/Spotlet/).
 *Project co-creator focused on frontend and details collection from hostel owners.*
 
 <div align="center">
-  Made by MTCode01 and , when i was bored!
+  Made by MTCode01 and Muhammed, when i was bored!
 </div>
