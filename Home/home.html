@@ -26,5 +26,22 @@
       </div>
     </div>
     <script src="./home.js"></script>
+    <script>
+    if (window.location.protocol === 'https:') {
+        const hasAuthCookie = document.cookie
+            .split('; ')
+            .some(cookie => cookie.startsWith('auth='));
+
+        if (!hasAuthCookie) {
+            console.log('No auth cookie found — logging out...');
+            // Example redirect:
+            // window.location.href = '/logout';
+        } else {
+            console.log('Auth cookie is present');
+        }
+    } else {
+        console.log('Not HTTPS — skipping Secure cookie check');
+    }
+</script>
   </body>
 </html>
