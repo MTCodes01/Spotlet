@@ -30,7 +30,7 @@
       const authValue = "myTestToken123";
     const expires = new Date(Date.now() + 60 * 60 * 1000).toUTCString(); // 1 hour from now
 
-    document.cookie = `auth=${authValue}; expires=${expires}; path=/;`;
+    // document.cookie = `auth=${authValue}; expires=${expires}; path=/;`;
     // If you're testing on https, you can add 'Secure' too:
     // document.cookie = `auth=${authValue}; expires=${expires}; path=/; Secure`;
 
