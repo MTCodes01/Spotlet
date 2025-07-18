@@ -13,7 +13,7 @@ Spotlet is a non-profit project developed by Sreedev and Muhammed, designed to h
 ## TO-DO
 
 - [x] Complete homepage design
-- [x] Add more hostel details (added 6)
+- [x] Add more hostel details (added 7)
 - [x] UI for mobile devices
 - [x] Finalize hostel image gallery
 - [x] Finalize hostel locations
@@ -81,7 +81,7 @@ SPOTLET/
 ```
 ## Usage
 
-To access the website, simply click [here](https://sreedevss.me/Spotlet/).
+To access the website, simply click [here](https://link.ceal.in/Spotlet/).
 
 ## Contributors
 
