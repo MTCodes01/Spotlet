@@ -8,11 +8,11 @@
         "whatsapp_no": "9745354655",
         "food": "",
         "deposit": "1000",
-        "distance": "0.85km",
+        "distance": "850 m",
         "gender": "Female",
         "seats": {
             "boys": "0",
-            "girls": "15"
+            "girls": "20"
         },
         "images": [
             "img_1.jpg",
@@ -84,8 +84,8 @@
         "distance": "1.3km",
         "gender": "Male / Female",
         "seats": {
-            "boys": "26",
-            "girls": "6"
+            "boys": "8",
+            "girls": "8"
         },
         "images": [
             "img_61.jpg"
@@ -150,12 +150,12 @@
         "contact_no": "8281603395",
         "whatsapp_no": "8281603395",
         "food": "",
-        "deposit": "",
+        "deposit": "2000",
         "distance": "1.3km",
         "gender": "Male / Female",
         "seats": {
-            "boys": "20",
-            "girls": "20"
+            "boys": "10",
+            "girls": "10"
         },
         "images": [
             "img_21.jpg",
@@ -217,16 +217,16 @@
         "id": 4,
         "hostel_name": "Sree Vinayaka",
         "owner_name": "Preemanandh",
-        "price": "5000",
+        "price": "6000",
         "contact_no": "9633375027",
         "whatsapp_no": "9633375027",
         "food": "",
-        "deposit": "A1000",
+        "deposit": "1000",
         "distance": "1.2km",
         "gender": "Female",
         "seats": {
             "boys": "0",
-            "girls": "12"
+            "girls": "10"
         },
         "images": [
             "img_11.jpg",
@@ -284,84 +284,9 @@
             }
         }
     },
+    
     {
         "id": 5,
-        "hostel_name": "Guru Padham",
-        "owner_name": "Leena Mani",
-        "price": "5000",
-        "contact_no": "7591920211",
-        "whatsapp_no": "7591920211",
-        "food": "",
-        "deposit": "A500",
-        "distance": "--km",
-        "gender": "Female",
-        "seats": {
-            "boys": "0",
-            "girls": "10"
-        },
-        "images": [
-            "img_31.jpg",
-            "img_32.jpg",
-            "img_33.jpg",
-            "img_34.jpg",
-            "img_35.jpg",
-            "img_36.jpg",
-            "img_37.jpg",
-            "img_38.jpg",
-            "Vvid_40.mp4"
-        ],
-        "links": [
-            "Nil"
-        ],
-        "common_details": {
-            "wifi": "No",
-            "washing_machines": "No",
-            "filtered_water": "No",
-            "hot_water": "No",
-            "parking": "Yes",
-            "security": "No",
-            "cctv": "No",
-            "iron_box": "No",
-            "common_bathroom": "Yes",
-            "NOTA": "No"
-        },
-        "single_room": {
-            "available": "No",
-            "price": "N/A",
-            "bed_type": {
-                "single": {
-                    "available": "No"
-                },
-                "double": {
-                    "available": "No"
-                }
-            },
-            "options_available": {
-                "ac": "No",
-                "furniture": "No",
-                "private_bathroom": "No"
-            }
-        },
-        "shared_room": {
-            "available": "Yes",
-            "price": "5000",
-            "bed_type": {
-                "single": {
-                    "available": "Yes"
-                },
-                "double": {
-                    "available": "No"
-                }
-            },
-            "options_available": {
-                "ac": "No",
-                "furniture": "Yes",
-                "private_bathroom": "Yes"
-            }
-        }
-    },
-    {
-        "id": 6,
         "hostel_name": "S.N.V Ladies Hostel",
         "owner_name": "Sandhya",
         "price": "5000",
@@ -369,11 +294,11 @@
         "whatsapp_no": "08075602057",
         "food": "",
         "deposit": "",
-        "distance": "0.95km",
+        "distance": "950m",
         "gender": "Female",
         "seats": {
             "boys": "0",
-            "girls": "8"
+            "girls": "7"
         },
         "images": [
             "img_41.jpg",
@@ -435,20 +360,17 @@
         }
     },
     {
-        "id": 7,
+        "id": 6,
         "hostel_name": "Kallus Paying Guest",
         "owner_name": "Veena Manilal",
-        "price": "4000",
+        "price": "5500",
         "contact_no": "7558897135",
         "whatsapp_no": "7558897135",
-        "food": "3000",
-        "deposit": "A3000",
+        "food": " ",
+        "deposit": "2000 per person",
         "distance": "1.2km",
         "gender": "Male / Female",
-        "seats": {
-            "boys": "9",
-            "girls": "8"
-        },
+    
         "images": [
             "img_51.jpg",
             "img_52.jpg"
