@@ -8,31 +8,30 @@
         "whatsapp_no": "9745354655",
         "food": "",
         "deposit": "1000",
-        "distance": "0.85km",
+        "distance": "850 m",
         "gender": "Female",
         "seats": {
             "boys": "0",
-            "girls": "15"
+            "girls": "20"
         },
         "images": [
             "img_1.jpg",
             "img_2.jpg",
             "img_3.jpg",
-            "img_4.jpg"
+            "img_4.jpg",
+            "img_6.jpg"
         ],
         "links": [
-            "https://www.google.com/maps/place/8%C2%B041'49.6%22N+76%C2%B048'58.5%22E/@8.6971109",
-            "76.8136817",
-            "17z/data=!3m1!4b1!4m4!3m3!8m2!3d8.6971109!4d76.8162566?entry=ttu"
+           "https://maps.app.goo.gl/89wGiYsovkXWwCh38"
         ],
         "common_details": {
-            "wifi": "No",
+            "wifi": "Yes",
             "washing_machines": "No",
             "filtered_water": "No",
             "hot_water": "No",
             "parking": "Yes",
             "security": "Yes",
-            "cctv": "No",
+            "cctv": "Yes",
             "iron_box": "Yes",
             "common_bathroom": "Yes",
             "NOTA": "No"
@@ -80,12 +79,13 @@
         "contact_no": "9847722137",
         "whatsapp_no": "9847722137",
         "food": "",
-        "deposit": "",
+        "deposit": "5000",
+        "advance": "6000 for food & accomodation",
         "distance": "1.3km",
         "gender": "Male / Female",
         "seats": {
-            "boys": "26",
-            "girls": "6"
+            "boys": "8",
+            "girls": "8"
         },
         "images": [
             "img_61.jpg"
@@ -150,12 +150,84 @@
         "contact_no": "8281603395",
         "whatsapp_no": "8281603395",
         "food": "",
-        "deposit": "",
+        "deposit": "2000",
         "distance": "1.3km",
-        "gender": "Male / Female",
+        "gender": "Female",
         "seats": {
-            "boys": "20",
-            "girls": "20"
+            
+            "girls": "10"
+        },
+        "images": [
+            "img_21.jpg",
+            "img_22.jpg"
+        ],
+        "links": [
+            "https://www.google.com/maps/place/8%C2%B041'43.4%22N+76%C2%B048'42.9%22E/@8.6953942",
+            "76.8093418",
+            "17z/data=!3m1!4b1!4m4!3m3!8m2!3d8.6953889!4d76.8119167?entry=ttu"
+        ],
+        "common_details": {
+            "wifi": "Yes",
+            "washing_machines": "Yes",
+            "filtered_water": "Yes",
+            "hot_water": "No",
+            "parking": "Yes",
+            "security": "Yes",
+            "cctv": "Yes",
+            "iron_box": "Yes",
+            "common_bathroom": "Yes",
+            "NOTA": "No"
+        },
+        "single_room": {
+            "available": "Yes",
+            "price": "--",
+            "bed_type": {
+                "single": {
+                    "available": "No"
+                },
+                "double": {
+                    "available": "No"
+                }
+            },
+            "options_available": {
+                "ac": "No",
+                "furniture": "Yes",
+                "private_bathroom": "Yes"
+            }
+        },
+        "shared_room": {
+            "available": "Yes",
+            "price": "5500",
+            "bed_type": {
+                "single": {
+                    "available": "Yes"
+                },
+                "double": {
+                    "available": "No"
+                }
+            },
+            "options_available": {
+                "ac": "No",
+                "furniture": "Yes",
+                "private_bathroom": "Yes"
+            }
+        }
+    },
+   
+     {
+        "id": 4,
+        "hostel_name": "Dhwaraka ",
+        "owner_name": "Shella Mohan",
+        "price": "5500",
+        "contact_no": "8281603395",
+        "whatsapp_no": "8281603395",
+        "food": "",
+        "deposit": "2000",
+        "distance": "1.3km",
+        "gender": "Male",
+        "seats": {
+            "boys": "10"
+            
         },
         "images": [
             "img_21.jpg",
@@ -213,20 +285,22 @@
             }
         }
     },
+     
+
     {
-        "id": 4,
+        "id": 5,
         "hostel_name": "Sree Vinayaka",
         "owner_name": "Preemanandh",
-        "price": "5000",
+        "price": "6000",
         "contact_no": "9633375027",
         "whatsapp_no": "9633375027",
         "food": "",
-        "deposit": "A1000",
+        "deposit": "1000",
         "distance": "1.2km",
         "gender": "Female",
         "seats": {
             "boys": "0",
-            "girls": "12"
+            "girls": "10"
         },
         "images": [
             "img_11.jpg",
@@ -284,82 +358,7 @@
             }
         }
     },
-    {
-        "id": 5,
-        "hostel_name": "Guru Padham",
-        "owner_name": "Leena Mani",
-        "price": "5000",
-        "contact_no": "7591920211",
-        "whatsapp_no": "7591920211",
-        "food": "",
-        "deposit": "A500",
-        "distance": "--km",
-        "gender": "Female",
-        "seats": {
-            "boys": "0",
-            "girls": "10"
-        },
-        "images": [
-            "img_31.jpg",
-            "img_32.jpg",
-            "img_33.jpg",
-            "img_34.jpg",
-            "img_35.jpg",
-            "img_36.jpg",
-            "img_37.jpg",
-            "img_38.jpg",
-            "Vvid_40.mp4"
-        ],
-        "links": [
-            "Nil"
-        ],
-        "common_details": {
-            "wifi": "No",
-            "washing_machines": "No",
-            "filtered_water": "No",
-            "hot_water": "No",
-            "parking": "Yes",
-            "security": "No",
-            "cctv": "No",
-            "iron_box": "No",
-            "common_bathroom": "Yes",
-            "NOTA": "No"
-        },
-        "single_room": {
-            "available": "No",
-            "price": "N/A",
-            "bed_type": {
-                "single": {
-                    "available": "No"
-                },
-                "double": {
-                    "available": "No"
-                }
-            },
-            "options_available": {
-                "ac": "No",
-                "furniture": "No",
-                "private_bathroom": "No"
-            }
-        },
-        "shared_room": {
-            "available": "Yes",
-            "price": "5000",
-            "bed_type": {
-                "single": {
-                    "available": "Yes"
-                },
-                "double": {
-                    "available": "No"
-                }
-            },
-            "options_available": {
-                "ac": "No",
-                "furniture": "Yes",
-                "private_bathroom": "Yes"
-            }
-        }
-    },
+    
     {
         "id": 6,
         "hostel_name": "S.N.V Ladies Hostel",
@@ -369,11 +368,11 @@
         "whatsapp_no": "08075602057",
         "food": "",
         "deposit": "",
-        "distance": "0.95km",
+        "distance": "950m",
         "gender": "Female",
         "seats": {
             "boys": "0",
-            "girls": "8"
+            "girls": "7"
         },
         "images": [
             "img_41.jpg",
@@ -438,17 +437,14 @@
         "id": 7,
         "hostel_name": "Kallus Paying Guest",
         "owner_name": "Veena Manilal",
-        "price": "4000",
+        "price": "5500",
         "contact_no": "7558897135",
         "whatsapp_no": "7558897135",
-        "food": "3000",
-        "deposit": "A3000",
+        "food": " ",
+        "deposit": "2000 per person",
         "distance": "1.2km",
         "gender": "Male / Female",
-        "seats": {
-            "boys": "9",
-            "girls": "8"
-        },
+    
         "images": [
             "img_51.jpg",
             "img_52.jpg"
@@ -490,6 +486,146 @@
         "shared_room": {
             "available": "Yes",
             "price": "4000",
+            "bed_type": {
+                "single": {
+                    "available": "Yes"
+                },
+                "double": {
+                    "available": "No"
+                }
+            },
+            "options_available": {
+                "ac": "No",
+                "furniture": "Yes",
+                "private_bathroom": "Yes"
+            }
+        }
+    },
+   
+    
+    {
+        "id":8 ,
+        "hostel_name": "Sreelekshmi  Ladies Hostel",
+        "owner_name": "Lathika K",
+        "price": "6500",
+        "contact_no": "8078313518",
+        "whatsapp_no": "8078313518",
+        "food": "",
+        "deposit": "3000 (refundable)",
+        "distance": "1.3km",
+        "gender": "Female",
+        "seats": {
+            "boys": "0",
+            "girls": "15"
+        },
+        "images": [
+            "img_62.jpg",
+            "img_63.jpg"
+        ],
+        "links": [
+            "https://maps.app.goo.gl/ySBPJTt7X7hWtZmz6?g_st=aw"
+        ],
+        "common_details": {
+            "wifi": "No",
+            "washing_machines": "No",
+            "filtered_water": "No",
+            "hot_water": "Yes",
+            "parking": "Yes",
+            "security": "Yes",
+            "cctv": "Yes",
+            "iron_box": "No",
+            "common_bathroom": "Yes",
+            "NOTA": "No"
+        },
+        "single_room": {
+            "available": "Yes",
+            "price": "7000",
+            "bed_type": {
+                "single": {
+                    "available": "yes"
+                },
+                "double": {
+                    "available": "No"
+                }
+            },
+            "options_available": {
+                "ac": "No",
+                "furniture": "Yes",
+                "private_bathroom": "Yes"
+            }
+        },
+        "shared_room": {
+            "available": "Yes",
+            "price": "5000",
+            "bed_type": {
+                "single": {
+                    "available": "Yes"
+                },
+                "double": {
+                    "available": "No"
+                }
+            },
+            "options_available": {
+                "ac": "No",
+                "furniture": "Yes",
+                "private_bathroom": "Yes"
+            }
+        }
+    },
+    {
+        "id":9 ,
+        "hostel_name": "paying guest",
+        "owner_name": "Shajahan",
+        "price": "5000",
+        "contact_no": "7306796772",
+        "whatsapp_no": "7306796772",
+        "food": "",
+        "deposit": "5000 (refundable)",
+        "distance": "2.9km",
+        "gender": "Female",
+        "seats": {
+            "seats": "10"
+        },
+        "images": [
+            "img_65.jpg",
+            "img_64.jpg",
+            "img_66.jpg"
+        ],
+        "links": [
+            "https://maps.app.goo.gl/zhvFxHihje268oYA9"
+        ],
+        "common_details": {
+            "wifi": "No",
+            "washing_machines": "can be arranged",
+            "filtered_water": "No",
+            "hot_water": "Yes",
+            "parking": "Yes",
+            "security": "Yes",
+            "cctv": "Yes",
+            "iron_box": "No",
+            "common_bathroom": "Yes",
+            "NOTA": "No"
+        },
+        "single_room": {
+            "available": "Yes",
+            "price": "7000",
+            "bed_type": {
+                "single": {
+                    "available": "No"
+                },
+                "double": {
+                    "available": "No"
+                }
+            },
+            "options_available": {
+                "ac": "No",
+                "furniture": "Yes",
+                "private_bathroom": "Yes"
+            }
+        },
+        "shared_room": {
+            "available": "Yes",
+            "price": "5000",
             "bed_type": {
                 "single": {
                     "available": "Yes"

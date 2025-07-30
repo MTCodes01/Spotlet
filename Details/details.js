@@ -247,6 +247,17 @@ document.addEventListener("DOMContentLoaded", function () {
       // Image gallery
       const imageGallery = document.querySelector(".image-gallery");
       const dotGallery = document.querySelector(".dots");
+      const leftBtn = document.querySelector(".scroll-btn.left");
+      const rightBtn = document.querySelector(".scroll-btn.right");
+
+      leftBtn.addEventListener("click", () => {
+        imageGallery.scrollBy({ left: -300, behavior: "smooth" });
+      });
+
+      rightBtn.addEventListener("click", () => {
+        imageGallery.scrollBy({ left: 300, behavior: "smooth" });
+      });
+
       imageGallery.textContent = "";
       hostel.images.forEach((imageSrc) => {
         if (imageSrc[0] != "V") {
@@ -282,3 +293,4 @@ document.addEventListener("DOMContentLoaded", function () {
     })
     .catch((error) => console.error("Error fetching hostel details:", error));
 });
+

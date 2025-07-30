@@ -471,7 +471,7 @@ body {
 
 .common_details .amenities-grid {
   margin-top: 0;
-  gap: 30px;
+  gap: 20px;
 }
 
 .dark-mode .amenities h2 {
@@ -887,5 +887,75 @@ table a{
 
   .location {
     left: 0px;
+  }
+}
+.gallery-wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  overflow: hidden;
+}
+
+/* Image scrolling section */
+.image-gallery {
+  display: flex;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  scrollbar-width: none;
+}
+
+.image-gallery::-webkit-scrollbar {
+  display: none;
+}
+
+/* Scroll buttons */
+.scroll-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-10%);
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 30px;
+  padding: 10px;
+  font-size: 1.8rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+  -webkit-transform: translateY(-10%);
+  -moz-transform: translateY(-10%);
+  -ms-transform: translateY(-10%);
+  -o-transform: translateY(-10%);
+}
+
+.scroll-btn:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+}
+
+.scroll-btn.left {
+  left: 5px;
+}
+
+.scroll-btn.right {
+  right: 5px;
+}
+
+/* Medium screens and up */
+@media (min-width: 768px) {
+  .scroll-btn {
+    font-size: 2.2rem;
+    padding: 10px 14px;
+  }
+
+  .scroll-btn.left {
+    left: 20px;
+  }
+
+  .scroll-btn.right {
+    right: 20px;
   }
 }

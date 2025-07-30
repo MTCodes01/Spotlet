@@ -10,7 +10,7 @@
     <div class="wrapper">
       <div class="navbar">
         <div class="dark-mode-toggle">🌙</div>
-        <div class="brand">Spotlet</div>
+        <div class="brand">Spotlet CEAL</div>
         <div class="hamburger-menu">
           <div></div>
           <div></div>
@@ -26,9 +26,14 @@
       </div> -->
       <div class="container">
         <div class="hostel_details">
-          <div class="image-gallery">
-            <img src="../Images/placeholder.png" alt="placeholder" />
-            <!-- Images will be dynamically inserted here -->
+          <div class="gallery-wrapper">
+            <button class="scroll-btn left"><</button>
+
+            <div class="image-gallery">
+              <!-- images/videos -->
+            </div>
+
+            <button class="scroll-btn right">></button>
           </div>
           <div class="dots"></div>
           <div class="main-top">
@@ -87,7 +92,7 @@
             </table>
             <br />
             <div class="call" align="center">
-              *contact the number given above for confirmation about the
+              *Contact the number given above for confirmation about the
               availability.
             </div>
           </div>
@@ -96,7 +101,7 @@
 
             <div class="box_same common_details">
               <h2 align="center">Common</h2>
-              <div class="amenities-grid">
+              <div class="amenities-grid" id="commonAmenities">
                 <div class="amenity">
                   <div id="wifiCheck"></div>
                   <p>Wifi</p>
@@ -141,7 +146,7 @@
                 <h2>Single Room</h2>
                 <p id="singleRoomPrice" class="price">-- / month</p>
               </div>
-              <div class="amenities-grid">
+              <div class="amenities-grid" id="singleRoomAmenities">
                 <div class="amenity">
                   <div id="singleBedSingleCheck"></div>
                   <p>Single Bed</p>
