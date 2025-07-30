@@ -2,7 +2,7 @@
 
 Welcome to the Spotlet repository!
 
-Spotlet is a non-profit project developed by Sreedev and Muhammed, designed to help newcomers easily find hostels. The website offers detailed information, images, and contact details for various hostels, ensuring that users can make informed decisions.
+Spotlet is a project developed by Sreedev and Muhammed, designed to help newcomers easily find hostels. The website offers detailed information, images, and contact details for various hostels, ensuring that users can make informed decisions.
 
 ## Key features include:
 
