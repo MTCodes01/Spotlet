@@ -502,5 +502,75 @@
                 "private_bathroom": "Yes"
             }
         }
+    },
+    {
+        "id":9 ,
+        "hostel_name": "paying guest",
+        "owner_name": "Shajahan",
+        "price": "5000",
+        "contact_no": "7306796772",
+        "whatsapp_no": "7306796772",
+        "food": "",
+        "deposit": "5000",
+        "distance": "2.9km",
+        "gender": "Female",
+        "seats": {
+            "boys": "0",
+            "girls": "10"
+        },
+        "images": [
+            "img_65.jpg",
+            "img_64.jpg",
+            "img_66.jpg"
+        ],
+        "links": [
+            "https://maps.app.goo.gl/zhvFxHihje268oYA9"
+        ],
+        "common_details": {
+            "wifi": "No",
+            "washing_machines": "can be arranged",
+            "filtered_water": "No",
+            "hot_water": "Yes",
+            "parking": "Yes",
+            "security": "Yes",
+            "cctv": "Yes",
+            "iron_box": "No",
+            "common_bathroom": "Yes",
+            "NOTA": "No"
+        },
+        "single_room": {
+            "available": "Yes",
+            "price": "7000",
+            "bed_type": {
+                "single": {
+                    "available": "No"
+                },
+                "double": {
+                    "available": "No"
+                }
+            },
+            "options_available": {
+                "ac": "No",
+                "furniture": "Yes",
+                "private_bathroom": "Yes"
+            }
+        },
+        "shared_room": {
+            "available": "Yes",
+            "price": "5000",
+            "bed_type": {
+                "single": {
+                    "available": "Yes"
+                },
+                "double": {
+                    "available": "No"
+                }
+            },
+            "options_available": {
+                "ac": "No",
+                "furniture": "Yes",
+                "private_bathroom": "Yes"
+            }
+        }
     }
 ]
