@@ -65,6 +65,13 @@ document.addEventListener("DOMContentLoaded", function () {
       textFeeExtra = document.querySelector("#feeExtraText");
       extraFee = hostel.deposit;
       feeFood = hostel.food;
+      extra = hostel.fees;
+
+      if (extra) {
+        document.querySelector(".extra-fee").style.display = "inline";
+        extraFeeElement = document.querySelector("#Extra");
+        extraFeeElement.textContent = `${extra}`;
+      }
 
       if (feeFood) {
         document.querySelector(".food").style.display = "inline";
