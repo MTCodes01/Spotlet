@@ -84,8 +84,8 @@
         "distance": "1.2km",
         "gender": "Male / Female",
         "seats": {
-            "boys": "0",
-            "girls": "0"
+            "boys": "5",
+            "girls": "5"
         },
     
         "images": [
