@@ -513,10 +513,10 @@
         "food": "",
         "deposit": "6000",
         "distance": "2.9km",
-        "gender": "Female",
+        "gender": "Male / Female",
         "seats": {
-            "boys": "0",
-            "girls": "10"
+            "boys": "5",
+            "girls": "5"
         },
         "images": [
             "img_65.jpg",
