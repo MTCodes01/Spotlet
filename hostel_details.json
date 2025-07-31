@@ -70,9 +70,82 @@
             }
         }
     },
-    
+
     {
         "id": 2,
+        "hostel_name": "Ayshoo's PG",
+        "owner_name": "Shemja MA",
+        "price": "5500",
+        "contact_no": "9847722137",
+        "whatsapp_no": "9847722137",
+        "food": "",
+        "deposit": "5000",
+        "advance": "6000 for food & accomodation",
+        "distance": "1.3km",
+        "gender": "Male / Female",
+        "seats": {
+            "boys": "8",
+            "girls": "8"
+        },
+        "images": [
+            "img_61.jpg"
+        ],
+        "links": [
+            "https://www.google.com/maps/place/8%C2%B041'56.9%22N+76%C2%B048'54.7%22E/@8.6989337",
+            "76.8152357",
+            "20.12z/data=!4m4!3m3!8m2!3d8.6991355!4d76.8151804?entry=ttu"
+        ],
+        "common_details": {
+            "wifi": "Yes",
+            "washing_machines": "No",
+            "filtered_water": "Yes",
+            "hot_water": "No",
+            "parking": "Yes",
+            "security": "No",
+            "cctv": "Yes",
+            "iron_box": "No",
+            "common_bathroom": "Yes",
+            "NOTA": "No"
+        },
+        "single_room": {
+            "available": "No",
+            "price": "N/A",
+            "bed_type": {
+                "single": {
+                    "available": "No"
+                },
+                "double": {
+                    "available": "No"
+                }
+            },
+            "options_available": {
+                "ac": "No",
+                "furniture": "No",
+                "private_bathroom": "No"
+            }
+        },
+        "shared_room": {
+            "available": "Yes",
+            "price": "5500",
+            "bed_type": {
+                "single": {
+                    "available": "Yes"
+                },
+                "double": {
+                    "available": "No"
+                }
+            },
+            "options_available": {
+                "ac": "No",
+                "furniture": "Yes",
+                "private_bathroom": "Yes"
+            }
+        }
+    },
+    
+    
+    {
+        "id": 3,
         "hostel_name": "Kallus Paying Guest",
         "owner_name": "Veena Manilal",
         "price": "2000",
@@ -129,78 +202,6 @@
         "shared_room": {
             "available": "Yes",
             "price": "4000",
-            "bed_type": {
-                "single": {
-                    "available": "Yes"
-                },
-                "double": {
-                    "available": "No"
-                }
-            },
-            "options_available": {
-                "ac": "No",
-                "furniture": "Yes",
-                "private_bathroom": "Yes"
-            }
-        }
-    },
-
-    {
-        "id": 3,
-        "hostel_name": "Ayshoo's PG",
-        "owner_name": "Shemja MA",
-        "price": "5500",
-        "contact_no": "9847722137",
-        "whatsapp_no": "9847722137",
-        "food": "",
-        "deposit": "5000",
-        "advance": "6000 for food & accomodation",
-        "distance": "1.3km",
-        "gender": "Male / Female",
-        "seats": {
-            "boys": "8",
-            "girls": "8"
-        },
-        "images": [
-            "img_61.jpg"
-        ],
-        "links": [
-            "https://www.google.com/maps/place/8%C2%B041'56.9%22N+76%C2%B048'54.7%22E/@8.6989337",
-            "76.8152357",
-            "20.12z/data=!4m4!3m3!8m2!3d8.6991355!4d76.8151804?entry=ttu"
-        ],
-        "common_details": {
-            "wifi": "Yes",
-            "washing_machines": "No",
-            "filtered_water": "Yes",
-            "hot_water": "No",
-            "parking": "Yes",
-            "security": "No",
-            "cctv": "Yes",
-            "iron_box": "No",
-            "common_bathroom": "Yes",
-            "NOTA": "No"
-        },
-        "single_room": {
-            "available": "No",
-            "price": "N/A",
-            "bed_type": {
-                "single": {
-                    "available": "No"
-                },
-                "double": {
-                    "available": "No"
-                }
-            },
-            "options_available": {
-                "ac": "No",
-                "furniture": "No",
-                "private_bathroom": "No"
-            }
-        },
-        "shared_room": {
-            "available": "Yes",
-            "price": "5500",
             "bed_type": {
                 "single": {
                     "available": "Yes"
@@ -360,6 +361,77 @@
             }
         }
     },
+    
+    
+    {
+        "id":8 ,
+        "hostel_name": "Sreelekshmi Ladies Hostel",
+        "owner_name": "Lathika K",
+        "price": "6500",
+        "contact_no": "8078313518",
+        "whatsapp_no": "8078313518",
+        "food": "",
+        "deposit": "3000",
+        "distance": "1.3km",
+        "gender": "Female",
+        "seats": {
+            "boys": "0",
+            "girls": "15"
+        },
+        "images": [
+            "img_62.jpg",
+            "img_63.jpg"
+        ],
+        "links": [
+            "https://maps.app.goo.gl/ySBPJTt7X7hWtZmz6?g_st=aw"
+        ],
+        "common_details": {
+            "wifi": "No",
+            "washing_machines": "No",
+            "filtered_water": "No",
+            "hot_water": "Yes",
+            "parking": "Yes",
+            "security": "Yes",
+            "cctv": "Yes",
+            "iron_box": "No",
+            "common_bathroom": "Yes",
+            "NOTA": "No"
+        },
+        "single_room": {
+            "available": "Yes",
+            "price": "7000",
+            "bed_type": {
+                "single": {
+                    "available": "yes"
+                },
+                "double": {
+                    "available": "No"
+                }
+            },
+            "options_available": {
+                "ac": "No",
+                "furniture": "Yes",
+                "private_bathroom": "Yes"
+            }
+        },
+        "shared_room": {
+            "available": "Yes",
+            "price": "5000",
+            "bed_type": {
+                "single": {
+                    "available": "Yes"
+                },
+                "double": {
+                    "available": "No"
+                }
+            },
+            "options_available": {
+                "ac": "No",
+                "furniture": "Yes",
+                "private_bathroom": "Yes"
+            }
+        }
+    },
     {
         "id": 7,
         "hostel_name": "Dhwaraka [ Females ]",
@@ -416,76 +488,6 @@
         "shared_room": {
             "available": "Yes",
             "price": "5500",
-            "bed_type": {
-                "single": {
-                    "available": "Yes"
-                },
-                "double": {
-                    "available": "No"
-                }
-            },
-            "options_available": {
-                "ac": "No",
-                "furniture": "Yes",
-                "private_bathroom": "Yes"
-            }
-        }
-    },
-    
-    {
-        "id":8 ,
-        "hostel_name": "Sreelekshmi Ladies Hostel",
-        "owner_name": "Lathika K",
-        "price": "6500",
-        "contact_no": "8078313518",
-        "whatsapp_no": "8078313518",
-        "food": "",
-        "deposit": "3000 (refundable)",
-        "distance": "1.3km",
-        "gender": "Female",
-        "seats": {
-            "boys": "0",
-            "girls": "15"
-        },
-        "images": [
-            "img_62.jpg",
-            "img_63.jpg"
-        ],
-        "links": [
-            "https://maps.app.goo.gl/ySBPJTt7X7hWtZmz6?g_st=aw"
-        ],
-        "common_details": {
-            "wifi": "No",
-            "washing_machines": "No",
-            "filtered_water": "No",
-            "hot_water": "Yes",
-            "parking": "Yes",
-            "security": "Yes",
-            "cctv": "Yes",
-            "iron_box": "No",
-            "common_bathroom": "Yes",
-            "NOTA": "No"
-        },
-        "single_room": {
-            "available": "Yes",
-            "price": "7000",
-            "bed_type": {
-                "single": {
-                    "available": "yes"
-                },
-                "double": {
-                    "available": "No"
-                }
-            },
-            "options_available": {
-                "ac": "No",
-                "furniture": "Yes",
-                "private_bathroom": "Yes"
-            }
-        },
-        "shared_room": {
-            "available": "Yes",
-            "price": "5000",
             "bed_type": {
                 "single": {
                     "available": "Yes"
