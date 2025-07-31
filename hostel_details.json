@@ -444,6 +444,10 @@
         "deposit": "2000 per person",
         "distance": "1.2km",
         "gender": "Male / Female",
+        "seats": {
+            "boys": "0",
+            "girls": "0"
+        },
     
         "images": [
             "img_51.jpg",
