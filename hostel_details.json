@@ -438,8 +438,8 @@
         "price": "2000",
         "contact_no": "7558897135",
         "whatsapp_no": "7558897135",
-        "food": " ",
-        "deposit": "2000 per person",
+        "food": "",
+        "deposit": "",
         "distance": "1.2km",
         "gender": "Male / Female",
         "seats": {
