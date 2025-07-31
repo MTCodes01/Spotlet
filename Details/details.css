@@ -689,6 +689,10 @@ body {
   color: #f0f0f0;
 }
 
+.extra-fee {
+  display: none;
+}
+
 .fee span,
 .distance span {
   font-weight: normal;
