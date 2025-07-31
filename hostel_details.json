@@ -70,37 +70,40 @@
             }
         }
     },
+    
     {
         "id": 2,
-        "hostel_name": "Dhwaraka [ Females ]",
-        "owner_name": "Shella Mohan",
-        "price": "5500",
-        "contact_no": "8281603395",
-        "whatsapp_no": "8281603395",
+        "hostel_name": "Kallus Paying Guest",
+        "owner_name": "Veena Manilal",
+        "price": "2000",
+        "contact_no": "7558897135",
+        "whatsapp_no": "7558897135",
         "food": "",
-        "deposit": "2000",
-        "distance": "1.3km",
-        "gender": "Female",
+        "deposit": "",
+        "fees": "Water, Electricity and Food",
+        "distance": "1.2km",
+        "gender": "Male / Female",
         "seats": {
-            
-            "girls": "10"
+            "boys": "0",
+            "girls": "0"
         },
+    
         "images": [
-            "img_21.jpg",
-            "img_22.jpg"
+            "img_51.jpg",
+            "img_52.jpg"
         ],
         "links": [
-            "https://www.google.com/maps/place/8%C2%B041'43.4%22N+76%C2%B048'42.9%22E/@8.6953942",
-            "76.8093418",
-            "17z/data=!3m1!4b1!4m4!3m3!8m2!3d8.6953889!4d76.8119167?entry=ttu"
+            "https://www.google.com/maps/place/8%C2%B041'59.4%22N+76%C2%B049'46.6%22E/@8.699946",
+            "76.8293768",
+            "20z/data=!4m4!3m3!8m2!3d8.6998333!4d76.8296111?entry=ttu&g_ep=EgoyMDI0MDgyMS4wIKXMDSoASAFQAw%3D%3D"
         ],
         "common_details": {
-            "wifi": "Yes",
-            "washing_machines": "Yes",
-            "filtered_water": "Yes",
+            "wifi": "No",
+            "washing_machines": "No",
+            "filtered_water": "No",
             "hot_water": "No",
             "parking": "Yes",
-            "security": "Yes",
+            "security": "No",
             "cctv": "Yes",
             "iron_box": "Yes",
             "common_bathroom": "Yes",
@@ -108,7 +111,7 @@
         },
         "single_room": {
             "available": "Yes",
-            "price": "--",
+            "price": "7000",
             "bed_type": {
                 "single": {
                     "available": "No"
@@ -125,7 +128,7 @@
         },
         "shared_room": {
             "available": "Yes",
-            "price": "5500",
+            "price": "4000",
             "bed_type": {
                 "single": {
                     "available": "Yes"
@@ -141,6 +144,7 @@
             }
         }
     },
+
     {
         "id": 3,
         "hostel_name": "Ayshoo's PG",
@@ -433,36 +437,35 @@
     },
     {
         "id": 7,
-        "hostel_name": "Kallus Paying Guest",
-        "owner_name": "Veena Manilal",
-        "price": "2000",
-        "contact_no": "7558897135",
-        "whatsapp_no": "7558897135",
+        "hostel_name": "Dhwaraka [ Females ]",
+        "owner_name": "Shella Mohan",
+        "price": "5500",
+        "contact_no": "8281603395",
+        "whatsapp_no": "8281603395",
         "food": "",
-        "deposit": "",
-        "distance": "1.2km",
-        "gender": "Male / Female",
+        "deposit": "2000",
+        "distance": "1.3km",
+        "gender": "Female",
         "seats": {
-            "boys": "0",
-            "girls": "0"
+            
+            "girls": "10"
         },
-    
         "images": [
-            "img_51.jpg",
-            "img_52.jpg"
+            "img_21.jpg",
+            "img_22.jpg"
         ],
         "links": [
-            "https://www.google.com/maps/place/8%C2%B041'59.4%22N+76%C2%B049'46.6%22E/@8.699946",
-            "76.8293768",
-            "20z/data=!4m4!3m3!8m2!3d8.6998333!4d76.8296111?entry=ttu&g_ep=EgoyMDI0MDgyMS4wIKXMDSoASAFQAw%3D%3D"
+            "https://www.google.com/maps/place/8%C2%B041'43.4%22N+76%C2%B048'42.9%22E/@8.6953942",
+            "76.8093418",
+            "17z/data=!3m1!4b1!4m4!3m3!8m2!3d8.6953889!4d76.8119167?entry=ttu"
         ],
         "common_details": {
-            "wifi": "No",
-            "washing_machines": "No",
-            "filtered_water": "No",
+            "wifi": "Yes",
+            "washing_machines": "Yes",
+            "filtered_water": "Yes",
             "hot_water": "No",
             "parking": "Yes",
-            "security": "No",
+            "security": "Yes",
             "cctv": "Yes",
             "iron_box": "Yes",
             "common_bathroom": "Yes",
@@ -470,7 +473,7 @@
         },
         "single_room": {
             "available": "Yes",
-            "price": "7000",
+            "price": "--",
             "bed_type": {
                 "single": {
                     "available": "No"
@@ -487,7 +490,7 @@
         },
         "shared_room": {
             "available": "Yes",
-            "price": "4000",
+            "price": "5500",
             "bed_type": {
                 "single": {
                     "available": "Yes"
@@ -503,11 +506,10 @@
             }
         }
     },
-   
     
     {
         "id":8 ,
-        "hostel_name": "Sreelekshmi  Ladies Hostel",
+        "hostel_name": "Sreelekshmi Ladies Hostel",
         "owner_name": "Lathika K",
         "price": "6500",
         "contact_no": "8078313518",
