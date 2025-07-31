@@ -1,7 +1,7 @@
 [
     {
         "id": 1,
-        "hostel_name": "Dhwaraka ",
+        "hostel_name": "Dhwaraka [ Male ]",
         "owner_name": "Shella Mohan",
         "price": "5500",
         "contact_no": "8281603395",
@@ -70,9 +70,79 @@
             }
         }
     },
-    
     {
         "id": 2,
+        "hostel_name": "Dhwaraka [ Females ]",
+        "owner_name": "Shella Mohan",
+        "price": "5500",
+        "contact_no": "8281603395",
+        "whatsapp_no": "8281603395",
+        "food": "",
+        "deposit": "2000",
+        "distance": "1.3km",
+        "gender": "Female",
+        "seats": {
+            
+            "girls": "10"
+        },
+        "images": [
+            "img_21.jpg",
+            "img_22.jpg"
+        ],
+        "links": [
+            "https://www.google.com/maps/place/8%C2%B041'43.4%22N+76%C2%B048'42.9%22E/@8.6953942",
+            "76.8093418",
+            "17z/data=!3m1!4b1!4m4!3m3!8m2!3d8.6953889!4d76.8119167?entry=ttu"
+        ],
+        "common_details": {
+            "wifi": "Yes",
+            "washing_machines": "Yes",
+            "filtered_water": "Yes",
+            "hot_water": "No",
+            "parking": "Yes",
+            "security": "Yes",
+            "cctv": "Yes",
+            "iron_box": "Yes",
+            "common_bathroom": "Yes",
+            "NOTA": "No"
+        },
+        "single_room": {
+            "available": "Yes",
+            "price": "--",
+            "bed_type": {
+                "single": {
+                    "available": "No"
+                },
+                "double": {
+                    "available": "No"
+                }
+            },
+            "options_available": {
+                "ac": "No",
+                "furniture": "Yes",
+                "private_bathroom": "Yes"
+            }
+        },
+        "shared_room": {
+            "available": "Yes",
+            "price": "5500",
+            "bed_type": {
+                "single": {
+                    "available": "Yes"
+                },
+                "double": {
+                    "available": "No"
+                }
+            },
+            "options_available": {
+                "ac": "No",
+                "furniture": "Yes",
+                "private_bathroom": "Yes"
+            }
+        }
+    },
+    {
+        "id": 3,
         "hostel_name": "Ayshoo's PG",
         "owner_name": "Shemja MA",
         "price": "5500",
@@ -122,77 +192,6 @@
                 "ac": "No",
                 "furniture": "No",
                 "private_bathroom": "No"
-            }
-        },
-        "shared_room": {
-            "available": "Yes",
-            "price": "5500",
-            "bed_type": {
-                "single": {
-                    "available": "Yes"
-                },
-                "double": {
-                    "available": "No"
-                }
-            },
-            "options_available": {
-                "ac": "No",
-                "furniture": "Yes",
-                "private_bathroom": "Yes"
-            }
-        }
-    },
-    {
-        "id": 3,
-        "hostel_name": "Dhwaraka ",
-        "owner_name": "Shella Mohan",
-        "price": "5500",
-        "contact_no": "8281603395",
-        "whatsapp_no": "8281603395",
-        "food": "",
-        "deposit": "2000",
-        "distance": "1.3km",
-        "gender": "Female",
-        "seats": {
-            
-            "girls": "10"
-        },
-        "images": [
-            "img_21.jpg",
-            "img_22.jpg"
-        ],
-        "links": [
-            "https://www.google.com/maps/place/8%C2%B041'43.4%22N+76%C2%B048'42.9%22E/@8.6953942",
-            "76.8093418",
-            "17z/data=!3m1!4b1!4m4!3m3!8m2!3d8.6953889!4d76.8119167?entry=ttu"
-        ],
-        "common_details": {
-            "wifi": "Yes",
-            "washing_machines": "Yes",
-            "filtered_water": "Yes",
-            "hot_water": "No",
-            "parking": "Yes",
-            "security": "Yes",
-            "cctv": "Yes",
-            "iron_box": "Yes",
-            "common_bathroom": "Yes",
-            "NOTA": "No"
-        },
-        "single_room": {
-            "available": "Yes",
-            "price": "--",
-            "bed_type": {
-                "single": {
-                    "available": "No"
-                },
-                "double": {
-                    "available": "No"
-                }
-            },
-            "options_available": {
-                "ac": "No",
-                "furniture": "Yes",
-                "private_bathroom": "Yes"
             }
         },
         "shared_room": {
