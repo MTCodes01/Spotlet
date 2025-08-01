@@ -157,8 +157,7 @@
         "distance": "1.2km",
         "gender": "Male / Female",
         "seats": {
-            "boys": "5",
-            "girls": "5"
+            "girls": "10"
         },
     
         "images": [
@@ -505,13 +504,13 @@
     },
     {
         "id":9 ,
-        "hostel_name": "paying guest",
+        "hostel_name": "Paying Guest",
         "owner_name": "Shajahan",
-        "price": "6000",
+        "price": "5000",
         "contact_no": "7306796772",
         "whatsapp_no": "7306796772",
         "food": "",
-        "deposit": "6000",
+        "deposit": "5000",
         "distance": "2.9km",
         "gender": "Male / Female",
         "seats": {
@@ -557,7 +556,7 @@
         },
         "shared_room": {
             "available": "Yes",
-            "price": "6000",
+            "price": "5000",
             "bed_type": {
                 "single": {
                     "available": "Yes"
