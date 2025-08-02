@@ -146,14 +146,14 @@
     
     {
         "id": 3,
-        "hostel_name": "Kallus Paying Guest",
+        "hostel_name": "Kallus",
         "owner_name": "Veena Manilal",
-        "price": "2000",
+        "price": "6000",
         "contact_no": "7558897135",
         "whatsapp_no": "7558897135",
         "food": "",
         "deposit": "2000",
-        "fees": "Water, Electricity and Food",
+        "fees": "",
         "distance": "1.2km",
         "gender": "Male / Female",
         "seats": {
