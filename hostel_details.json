@@ -182,7 +182,7 @@
             "NOTA": "No"
         },
         "single_room": {
-            "available": "Yes",
+            "available": "No",
             "price": "7000",
             "bed_type": {
                 "single": {
@@ -200,7 +200,7 @@
         },
         "shared_room": {
             "available": "Yes",
-            "price": "4000",
+            "price": "6000",
             "bed_type": {
                 "single": {
                     "available": "Yes"
